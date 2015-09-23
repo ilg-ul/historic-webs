@@ -1,0 +1,55 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ilg:1.2;
+comment  @@;
+
+
+1.2
+date     94.10.31.18.59.53;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.31.21;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Noutati la EUnet Romania</TITLE>
+<H1>Noutati:</H1>
+
+
+<H2>Aug 1994</H2>
+Cea mai mare noutate, chiar daca va vine sa credeti sau nu,
+este ca "inamicul public nr.1", RomTelecom-ul,
+a instalat in cele din urma linia inchiriata necesara pentru 
+legatura pe X.25 cu EUnet France.
+Ca a durat trei luni, asta e alta poveste...
+Mii de multumiri colegilor de la RTNS (Rompac) pentru aceasta 
+(mult asteptata) realizare,
+care ne-a dat posibilitatea de a deschide public serviciile de 
+TCP/IP (telnet, ftp, gopher, www, wais, etc). 
+<HR>
+<ADDRESS>actualizat: 11 Septembrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

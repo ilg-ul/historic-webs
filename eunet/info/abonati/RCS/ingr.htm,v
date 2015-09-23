@@ -1,0 +1,32 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.11.05.14.17.32;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<plaintext>
+
+Intergraph Reprezentanta Romania
+Rokura Business Center, Hotel Dorobanti, Bucuresti
+
+postmaster@@ingr.ro
+
+@

@@ -1,0 +1,47 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.05.14.17.39;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.42.43;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<plaintext>
+
+Romanian Data Soft SRL
+Bucuresti
+
+postmaster@@rds.ro
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 6
+a6 1
+postmaster@@rds.eunet.ro
+@

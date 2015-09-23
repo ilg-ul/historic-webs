@@ -1,0 +1,46 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.05.14.17.10;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.42.29;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<plaintext>
+Datasyst Computer SA
+Str. Dragos Voda 44, Bucuresti
+
+postmaster@@datasyst.ro
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 5
+a5 1
+postmaster@@datasyst.eunet.ro
+@

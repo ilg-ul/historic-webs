@@ -1,0 +1,48 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.07.27;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>COMPUSERVE GATEWAY ACCESS VIA INTERNET</TITLE>
+<H1> COMPUSERVE GATEWAY ACCESS VIA INTERNET</H1>
+
+
+
+CompuServe is now offering Internet access to the CompuServe Information
+Service via the telnet protocol.  To access the CompuServe Information
+Service, simply telnet to "CompuServe.com".  If you intend to perform
+binary file transfers, disable your escape character.<P>
+Once connected to CompuServe, enter a host name of CIS.  You will then
+have the opportunity to log into the CompuServe Information Service,
+obtain additional help, or end your session.  Non-CompuServe members may
+access the "Obtaining a CompuServe Information Service Membership" help
+option to learn how to get a CompuServe user id and password.  All help
+files will be sent to your electronic mail address so that you may browse
+them at your leisure.<P>
+If you choose to logon, you will then be connected to the CompuServe
+Information Service and the User ID: prompt will be displayed.  Enter
+your CompuServe User ID and logon as usual. There is no surcharge for
+using the Internet to connect to CompuServe.  Normal rates apply for
+CompuServe Information Service Access.<P>
+Once in the CompuServe Information Service, please feel free to visit the
+Internet forum (GO INETFORUM) for answers to additional questions you may
+have about CompuServe's Internet services.@

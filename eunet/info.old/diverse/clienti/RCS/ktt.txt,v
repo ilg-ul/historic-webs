@@ -1,0 +1,104 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.26.37;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@
+	Company Name:	KT Technology Romania S.R.L. (KT_ROM)
+	Address:	11, Luterana Str. 70741 Bucharest, Romania
+	Fax:	(40) 1 3120581
+	Phone:	(40) 1 3124620; (40) 1 6 152316
+	E-Mail:	dang@@ktt.ro
+
+	Founded in:	Jan. 1991
+	Starting Capital:	US$100000
+	Type:	Joint Venture: 40% Romanian, 60% Singapore
+
+
+I. Company Products and/or Services 
+
+- Sales of Personal Computers manufactured  by KT Technology Singapore;
+- Import/export of PC parts;
+- Production activities: 
+	assembly of PC monitors and CPU's, integration of PC cases;
+- Research & Design for PC subassemblies, add-on cards.
+- Monitoring of complex projects involving Networking, 
+	Unix/Risc platforms, RDBMS
+
+
+II. Targeted Markets
+
+- Romanian Market, turn over of US$4000000/year (Direct & indirect sales) ;
+- Former USSR (cca US$300000/year);
+- UK, Holland, Austria, Hungary (Monitors and cases only);
+
+
+III. Sales Geography. 
+
+The territory considered is Romania. 
+We have 18 exclusive distributors covering all the 
+territory. We also have distributors specialized on domains: e.g. : 
+Avionics (Quasar S.R.L.), Transportation Utilities (CETA S.A.), 
+Construction Materials Industry (Essi).
+
+
+IV. Reference projects:
+
+- Vulcano (Engineering Plant). MIPS 3040 Risc/Unix Server with Oracle 
+ver.6 RDBMS, 6  local area networks connected to the server through  a 
+gateway, Thin Ethernet networking technology. Implemented between 
+1990-1992, US$200000.
+
+- "Republica S.A." (pipes factory). MIPS 3060 Risc/Unix Server 
+(256 MB RAM, 3 GB Mirrored disks) connected through 1.5 Km of fiber 
+optic network to 140 Wyse terminals and 40 PC's. Oracle RDBMS  6.0, 
+and Uniplex (office automation).  Oracle case tools are used for 
+application development on a MIPS 3030 workstation along with 4  
+NCD X-Terminals. Cad/Cam Activities are performed on a SGI - Indigo 
+workstation along with Control Data  ICEM package. (1992-1993, 1.5 Mio US$).
+
+- CETA S.A. (forwarding company) - MIPS 3030 Risc/Unix Server running Portable 
+Netware for a network of 30 local PC stations and 16 remote Stations connected 
+through modems (US$50000, 1992).
+
+- University of Bucharest - MIPS 3030 Risc/Unix server for 25 Ascii Terminals. 
+Used for teaching Unix, Pascal, Fortran, X-Windows. (US$30000, financed by 
+Soros Foundation, 1993).
+
+- Romtrans S.A. (main Romanian forwarding company). Constant Customer  of 
+150000US$/year, in PC'c, printers and networking equipment.
+
+- Romanian Water Authority. Constant customer of about US$100000/year, in PC's 
+printers and networking equipment.
+
+- Soros Foundation Romania. Constant customer for about US$500000/year in 
+PC's and networking equipment. Projects involving Unix/Risc under development 
+(e.g. University of Bucharest).
+
+- Ministry of Health. Constant customer for about US$50000/year in PC's and 
+networking equipment. Financing possibilities through World Bank.
+
+- Incertrans (Institute for Research in Transportation Industry). Constant 
+customer for about US$50000/year, in PC's, Networking, PC Unix products 
+(Hardware & Software).
+
+@

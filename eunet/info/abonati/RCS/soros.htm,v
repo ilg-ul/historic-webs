@@ -1,0 +1,50 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.05.14.17.49;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.42.51;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<plaintext>
+Fundatia Soros pentru o Societate Deschisa
+
+postmaster@@buc.soros.ro
+postmaster@@iasi.soros.ro
+postmaster@@cluj.soros.ro
+postmaster@@clujlib.soros.ro
+postmaster@@timis.soros.ro
+
+postmaster@@cpc.soros.ro
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 3
+d7 3
+@

@@ -1,0 +1,116 @@
+head     1.3;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.3
+date     94.11.05.14.18.43;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.01.16;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.33.18;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@                       <TITLE>The Internet Index</TITLE>
+                          <H1>The Internet Index</H1>
+               <H1>[format stolen from "Harper's Index"]</H1>
+        <H1> Compiled by Win Treese (treese@@crl.dec.com), 7/8/93</H1>
+                          <H1> Revised: 12/16/93</H1>
+
+
+<UL>
+<LI>            Annual rate of growth for Gopher traffic: 997%
+<LI>      Annual rate of growth for World-Wide Web traffic: 341,634%
+<LI>Average time between new networks connecting to the Internet: 10 minutes
+<LI>Number of newspaper and magazine articles about the Internet during the
+                 first nine months of 1993: over 2300
+<LI>         Number of on-line coffeehouses in San Francisco: 18
+<LI> Cost for four minutes of Internet time at those coffeehouses: $0.25
+<LI>Date of first known Internet mail message sent by a head of state: 2 March 1993 (Sent by Bill Clinton, President of the United States)
+<LI>Date on which first Stephen King short story published via the Internet 
+before print publication: 19 Sept 1993
+<LI>      Number of mail messages carried by IBM's Internet gateways
+in January, 1993: about 340,000
+<LI>    Number of mail messages carried by Digital's Internet gateways
+in June, 1993: over 700,000
+<LI>           Advertised network numbers in July, 1993: 13,293
+<LI>           Advertised network numbers in July, 1992:  5,739
+<LI>     Date after which more than half the registered networks were
+commercial: August, 1991
+<LI>Number of Internet hosts in Norway, per 1000 population: 5
+<LI>Number of Internet hosts in United States, per 1000 population: 4
+<LI>          Number of Internet hosts in July, 1993: 1,776,000
+<LI>Round-trip time from Digital CRL to mcmvax.mcmurdo.gov in McMurdo, 
+Antartica:
+<UL>
+<LI>640 milliseconds
+<LI>Number of hops: 18
+</UL>
+<LI>Number of USENET articles posted on a typical day in February, 1993: 35,000
+<UL>
+<LI>                    Number of megabytes posted: 44
+<LI>                  Number of users posting: 80,000
+<LI>                 Number of sites represented: 25,000
+</UL>
+
+<LI>    Number of Silicon Valley real estate agencies advertising with
+                      Internet mail addresses: 1
+
+<LI>    Terabytes carried by the NSFnet backbone in February, 1993: 5
+
+<LI>   Number of countries reachable by electronic mail: 137 (approx.)
+<LI> Number of countries not reachable by electronic mail: 99 (approx.)
+<LI>               Number of countries on the Internet: 60
+
+<LI>    Amount of time it takes for Supreme Court decisions to become
+            available on the Internet: less than one day.
+
+<LI> Date of first National Public Radio program broadcast simultaneously
+                     on the Internet: 21 May 1993
+
+<LI>Percent of Boardwatch Top 100 BBS systems with Internet Connectivity: 21
+
+<LI>      Number of people on the Internet who know you're a dog: 0
+
+
+</UL>
+
+
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

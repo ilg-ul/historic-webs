@@ -1,0 +1,57 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.29.00;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Descrierea serviciului EUnetMail(Personal Server)</TITLE>
+<H1>EUnet Mail (personal server)</H1>
+<H2>Descriere generala</H2>
+Este varianta personala, economica, a serviciului <A HREF="mail.htm">EUnet Mail</A>, oferind, la cel mai mic pret posibil si cu o dotare minima,
+posibilitatea de a intra in contact direct cu partenerii dumneavoastra din
+intreaga lume, pastrind totusi avantajele transferului automat de fisiere cu serverul de comunicatii.
+<H2>Cerinte tehnice:</H2>
+<UL>
+<LI>Calculator ce are implementat protocolul UUCP (PC, Mac)
+<LI>Modem conectat la o linie telefonica obisnuita.  Pentru a minimiza costurile, suportam conexiuni de mare viteza,V.32bis/V42.bis.
+</UL>
+<H2>Servicii oferite:</H2>
+<UL>
+<LI>Conectivitate e-mail (Internet-style, RFC 822), prin EUnet, cu intreaga lume.
+<LI>Adresa unica in subdomeniul '.eunet.ro', (inregistrat in Domain Name
+Server), deci vizibila din intreaga lume.
+<LI>Posibilitatea de a face upgrade la serviciul complet, multi-user,
+fara cheltuieli suplimentare de inregistrare.
+<LI>La cerere, putem furniza ultimele versiuni ale programelor de comunicatie disponibile ca free software (UUPC, Eudora, etc).
+<LI>Asistenta tehnica la instalare, telefonic sau la sediul clientului.
+</UL>
+Mai consultati <A HREF="tmailps.htm">Tarife</A> si procedura de 
+<A HREF="inreg.htm">inregistrare</A>.
+<HR>
+<ADDRESS>actualizat: 24 August 1994 de vsv@@Romania.EU.net</ADDRESS>
+
+
+
+
+
+
+
+@

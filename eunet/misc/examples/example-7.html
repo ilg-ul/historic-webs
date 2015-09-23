@@ -1,0 +1,71 @@
+<TITLE>Fill-Out Form Example #7</TITLE>
+<H1>Fill-Out Form Example #7</H1>
+
+This is another fill-out form example, with toggle buttons. <P>
+
+<HR>
+
+<FORM METHOD="POST" ACTION="http://hoohoo.ncsa.uiuc.edu/htbin-post/post-query">
+
+<H2>Godzilla's Pizza -- Internet Delivery Service, Part II</H2>
+
+Type in your street address: <INPUT NAME="address"> <P>
+
+Type in your phone number: <INPUT NAME="phone"> <P>
+
+Which toppings would you like? <P>
+
+<OL>
+<LI> <INPUT TYPE="checkbox" NAME="topping" VALUE="pepperoni">
+     Pepperoni.
+<LI> <INPUT TYPE="checkbox" NAME="topping" VALUE="sausage"> Sausage.
+<LI> <INPUT TYPE="checkbox" NAME="topping" VALUE="anchovies">
+     Anchovies.
+</OL>
+
+How would you like to pay?  Choose any one of the following: <P>
+
+<OL>
+<LI> <INPUT TYPE="radio" NAME="paymethod" VALUE="cash" CHECKED> Cash.
+<LI> <INPUT TYPE="radio" NAME="paymethod" VALUE="check"> Check.
+<LI> <I>Credit card:</I>
+<UL>
+<LI> <INPUT TYPE="radio" NAME="paymethod" VALUE="mastercard"> Mastercard.
+<LI> <INPUT TYPE="radio" NAME="paymethod" VALUE="visa"> Visa.
+<LI> <INPUT TYPE="radio" NAME="paymethod" VALUE="americanexpress">
+     American Express.
+</UL>
+</OL>
+
+Would you like the driver to call before leaving the store? <P>
+
+<DL>
+<DD> <INPUT TYPE="radio" NAME="callfirst" VALUE="yes" CHECKED> <I>Yes.</I>
+<DD> <INPUT TYPE="radio" NAME="callfirst" VALUE="no"> <I>No.</I>
+</DL>
+
+
+To order your pizza, press this button: <INPUT TYPE="submit"
+VALUE="Order Pizza">. <P>
+
+</FORM>
+
+<HR> <P>
+
+Things you may want to note: <P>
+
+<UL>
+<LI> Radio buttons (type <CODE>RADIO</CODE>) are one-of-many input
+     elements.  The "many" is all radio buttons in the form with the
+     same <CODE>NAME</CODE>.
+<LI> In other ways, <CODE>RADIO</CODE> is the same as
+     <CODE>CHECKBOX</CODE>.
+<LI> Multiple sets of radio buttons (radio buttons with the same
+     <CODE>NAME</CODE>) can be in a single form.  This may require
+     careful document/interface design to keep things obvious -- don't
+     intermix radio buttons of different <CODE>NAME</CODE> values, or
+     the user won't understand how the interface works.
+</UL>
+
+<A HREF="example-6.html">Back to example 6</A> or <A
+HREF="example-8.html">forward to example 8</A>. <P>

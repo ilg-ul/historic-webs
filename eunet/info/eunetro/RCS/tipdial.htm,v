@@ -1,0 +1,100 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.16.18.08;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.21.39;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.31;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.44.17;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Tarife pentru serviciul DialEUnet</TITLE>
+<H1>Tarife pentru serviciul DialEUnet</H1>
+<H2>Costurile dvs. pentru servicul <A HREF="ipdial.htm"> DialEUnet</A>:</H2>
+<UL>
+<LI>Taxa de <A HREF="inreg.htm">inregistrare</A>: $200
+<LI>Abonament lunar: $200
+<LI>Traficul, trimis si receptionat, functie de distanta:
+<UL>
+<LI>Intern: $10MByte
+<LI>International: $100-$30/MByte
+</UL>
+Primii 10MB interni sint inclusi in costul abonamentului lunar.
+</UL>
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 3
+a3 3
+<TITLE>Tarife pentru serviciul InterEUnet Dialup-IP</TITLE>
+<H1>Tarife pentru serviciul InterEUnet Dialup-IP</H1>
+<H2>Costurile dvs. pentru servicul <A HREF="ipdial.htm"> InterEUnet Dialup-IP</A>:</H2>
+d5 2
+a6 2
+<LI>Taxa de <A HREF="inreg.htm">inregistrare</A>: $???
+<LI>Abonament lunar: $???
+d9 2
+a10 2
+<LI>Intern: $???/MByte
+<LI>International: $???/MByte
+d12 1
+a12 1
+Primii ???MB interni sint inclusi in costul abonamentului lunar.
+a13 3
+<HR>
+<ADDRESS>(Preturile se vor stabili cit de curind, imediat dupa terminarea instalarii si testarii liniei inchiriate prin care se va obtine acces TCP/IP international)</ADDRESS>
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+<H2>Costurile dvs. pentru servicul <A HREF="itdial.htm"> InterEUnet Dialup-IP</A>:</H2>
+@

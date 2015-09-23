@@ -1,0 +1,179 @@
+head     1.3;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.3
+date     94.11.05.14.19.59;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.05;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.43.58;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@<HTML><HEAD><TITLE></TITLE></HEAD><BODY><H1>EUnet in alte tari</H1>
+</BODY><BODY><H2>EUnet Austria: </H2></BODY><BODY><UL>Address : <UL>
+EUnet EDV Dienstleistungs Ges.m.b.H <LI>Schottenring 33 A-1010 Vienna, Austria
+</UL>Contact : <UL>Dr.
+Michael Haberler <LI>Phone : +43 1 3174969 <LI>Fax : +43 1 3104462 <LI>E-mail
+: mah@@Austria.EU.net</UL></UL></BODY><BODY><H2>EUnet Belgia:</H2></BODY><BODY>
+<UL>Address :<UL>EUnet Belgium p/a K.U.Leuven Dept.
+Computer Science <LI>Celestijnenlaan 200A B-3001 Leuven, Belgium</UL>Contact :
+<UL>Phone : +32 16 20 10 15 <LI>Fax : +32 16 20 53 08 <LI>E-mail :
+postmaster@@Belgium.EU.net</UL></UL></BODY><BODY><H2>EUnet Bulgaria:</H2>
+</BODY><BODY><UL>Address : <UL>
+Digital Systems / EUnet Bulgaria <LI>Neofit Bozveli 6 BG-9000 Varna, Bulgaria
+</UL>Contact : <UL>Support Group Phone : +359 52 259135 <LI>Fax :
++359 52 234540 <LI>E-mail : postmaster@@Bulgaria.EU.net</UL></UL></BODY><BODY>
+<H2>EUnet Cehia :</H2></BODY><BODY><UL>Address :<UL>
+COnet  Technicka 5 166 28 Prague 6 Czech Republic</UL></UL></BODY><BODY><UL>
+Contact : </UL></BODY><BODY><UL><UL>Pavel Rosendorf <LI>Phone :
++42 2 332 3242 <LI>Fax : +42 2 24310646 <LI>E-mail : prf@@Czechia.EU.net</UL>
+</UL></BODY><BODY><H2>EUnet Danemarca:</H2></BODY><BODY><UL>Address : <UL>
+DKnet Symbion Science Park Fruebjergvej 3 <LI>DK-2100 Koebenhavn OE, Denmark
+</UL>Contact : <UL>Netpasserne Phone : +45 39 17 99 00 <LI>Fax :
++45 39 17 98 97 <LI>E-mail : netpasser@@Denmark.EU.net</UL></UL></BODY><BODY>
+<H2>EUnet Egypt :</H2></BODY><BODY><UL>Address : <UL>
+Egyptian National STI Network <LI>101 Kasr El-Aini st, 12 floor Cairo, Egypt.
+11516</UL>Contact : <UL>Ola Wagieh, Sherif Hassan, Maged Boulos <LI>Phone :
++20 2 355 7253 <LI>Fax : +20 2 354 7807 <LI>E-mail : info@@estinet.uucp</UL>
+</UL></BODY><BODY><H2>EUnet Contact-Information for Europe (EUnet):</H2>
+</BODY><BODY><UL>Address : <UL>EUnet Ltd.
+<LI>Kruislaan 409 1098 SJ Amsterdam, NL</UL></UL></BODY><BODY><UL>Contact : 
+</UL></BODY><BODY><UL><UL>Glenn Kowack <LI>Phone : +31 20 592 5109 <LI>Fax :
++31 20 592 5163 <LI>E-mail : Glenn.Kowack@@EU.net</UL></UL></BODY><BODY><H2>
+EUnet Finlanda:</H2></BODY><BODY><UL>Address : <UL>
+EUnet Finland OY Punavuorenkatu 1 <LI>FI-00120 Helsinki, Finland</UL>Contact :
+<UL>Johan Helsingius <LI>Phone : +358 0 400 2060 <LI>Fax :
++358 0 622 2626 <LI>E-mail : helpdesk@@Finland.EU.net</UL></UL></BODY><BODY>
+<H2>EUnet Franta:</H2></BODY><BODY><UL>Address : <UL>
+Fnet, EUnet-France <LI>11 Rue Carnot 94270 Le Kremlin Bicetre, France
+</UL>Contact : <UL>M.
+Laurent Bloch <LI>Phone : +33 1 45 21 02 04 <LI>Fax : +33 1 46 58 94 20
+<LI>E-mail : contact@@France.EU.net</UL></UL></BODY><BODY><H2>EUnet Germania:
+</H2></BODY><BODY><UL>Address : <UL>EUnet Deutschland GmbH <LI>Emil-Figge-Str.
+80 D-44227 <LI>Dortmund</UL>Contact : <UL>Kerstin Scheifhacken <LI>Phone :
++49 231 972 00 <LI>Fax : +49 231 972 1111 <LI>E-mail : info@@Germany.EU.net
+</UL></UL></BODY><BODY><H2>EUnet Marea Britanie:</H2></BODY><BODY><UL>
+Address :<UL>
+EUnet GB, GBnet Ltd,<LI>Kent R&amp;D Business Centre,<LI>Giles Lane,<LI>Canterbury,
+Kent, CT2 7PB<LI>United Kingdom</UL>Contact :<UL>Support Group<LI>Phone :
++44 227 475497<LI>Fax : +44 227 475478<LI>E-mail : postmaster@@Britain.EU.net
+</UL></UL></BODY><BODY>EUnet Contact-Information for Greece (FORTHnet):
+</BODY><BODY><H2>Address :</H2><H2>
+Foundation of Research and Technology Hellas</H2><H2>36 Daidalou str.</H2><H2>
+P.O. Box 1385</H2><H2>Heraklion, Crete, Greece 71110</H2><H2>Contact :
+</H2><H2>Stelios Sartzetakis</H2><H2>Phone :
++30 81 221171, x229368, x229342, x229343</H2><H2>Fax : +30 81 229342, x229343
+</H2><H2>E-mail : postmaster@@Greece.EU.net</H2><H2>
+EUnet Contact-Information for Hungary (n/a):</H2><H2>Address :</H2><H2>
+Computer and Automation Institute</H2><H2>
+Hungarian Academy of Science (SzTAKI)</H2><H2>Victor Hugo u. 18-22</H2><H2>
+H-1132 Budapest, Hungary</H2><H2>Contact :</H2><H2>Nandor Horvath</H2><H2>
+Phone : +36 1 1497986</H2><H2>Fax : +36 1 1297866</H2><H2>E-mail :
+horvath@@Hungary.EU.net</H2><H2>EUnet Contact-Information for Iceland (ISnet):
+</H2><H2>Address :</H2><H2>University of Iceland</H2><H2>Dunhaga 5</H2><H2>
+107 Reykjavik</H2><H2>Contact :</H2><H2>Marius Olafsson</H2><H2>Phone :
++354 1 694747</H2><H2>Fax : +354 1 28801</H2><H2>E-mail : marius@@rhi.hi.is
+</H2><H2>EUnet Contact-Information for Ireland (IEunet):</H2><H2>Address :
+</H2><H2>IEunet Limited</H2><H2>Innovations Centre</H2><H2>Trinity College
+</H2><H2>Dublin 2, Ireland</H2><H2>Contact :</H2><H2>Gordon Rickerby</H2><H2>
+Phone : +353 1 671 9361</H2><H2>Fax : +353 1 679 8039</H2><H2>E-mail :
+postmaster@@Ireland.EU.net</H2><H2>EUnet Contact-Information for Italy (IUnet):
+</H2><H2>Address :</H2><H2>EUnet Italy</H2><H2>IUnet c/o DIST</H2><H2>
+Via Opera Pia 11A</H2><H2>I-16145 Genova, Italy</H2><H2>Contact :</H2><H2>
+Alessandro Berni</H2><H2>Phone : +39 10 3532747</H2><H2>Fax : +39 10 3532948
+</H2><H2>E-mail : iunet@@Italy.EU.net</H2><H2>
+EUnet Contact-Information for Luxemburg ():</H2><H2>Address :</H2><H2>
+EUnet Luxemburg</H2><H2>CRP - Centre Universitaire</H2><H2>
+162a, Avenue de la Faiencerie</H2><H2>L-1511 Luxemburg</H2><H2>Contact :
+</H2><H2>Baerbel Ripplinger</H2><H2>Phone : +352 47 02 61</H2><H2>Fax :
++352 47 02 64</H2><H2>E-mail : babs@@crpcu.lu</H2><H2>
+EUnet Contact-Information for Netherlands (NLnet):</H2><H2>Address :</H2><H2>
+Stichting NLnet</H2><H2>t.a.v. Martijn Roos Lindgreen</H2><H2>p/a CWI</H2><H2>
+Kruislaan 413</H2><H2>1098 SJ Amsterdam</H2><H2>Contact :</H2><H2>
+Martijn Roos Lindgreen</H2><H2>Phone : +31 20 592 4245</H2><H2>Fax :
++31 20 592 4199</H2><H2>E-mail : beheer@@Netherlands.EU.net</H2><H2>
+EUnet Contact-Information for Norway (EUnet Norway):</H2><H2>Address :
+</H2><H2>EUnet Norway</H2><H2>Gaustadallen 21</H2><H2>N-0371 OSLO, Norway
+</H2><H2>Contact :</H2><H2>Arne Asplem</H2><H2>Phone : +47 22 95 83 27
+</H2><H2>Fax : +47 22 60 44 27</H2><H2>E-mail : aras@@Norway.EU.net</H2><H2>
+EUnet Contact-Information for Portugal (EUnet-PT):</H2><H2>Address :</H2><H2>
+EUnet Portugal</H2><H2>PUUG - Grupo Portugues de Utlizadores do Sistema UNIX
+</H2><H2>c/o UNINOVA</H2><H2>Quinta da Torre</H2><H2>
+2825 MONTE DA CAPARICA, Portugal</H2><H2>Contact :</H2><H2>
+EUnet Portugal Support Group</H2><H2>Phone : +351 1 295 44 64 Ext 2507
+</H2><H2>Fax : +351 1 295 77 86</H2><H2>E-mail : postmaster@@Portugal.EU.net
+</H2><H2>EUnet Contact-Information for Slovakia (EUnet Slovakia):</H2><H2>
+Address :</H2><H2>EUnet Slovakia</H2><H2>MFF UK, Computer Centre</H2><H2>
+Mlynska dolina</H2><H2>842 15 Bratislava, Slovakia</H2><H2>Contact :</H2><H2>
+Gejza Buechler / Ivan Lescak</H2><H2>Phone : +42 7 377 434, +42 7 725 306
+</H2><H2>Fax : +42 7 377 433, +42 7 728 462</H2><H2>E-mail :
+postmaster@@Slovakia.EU.net</H2><H2>
+EUnet Contact-Information for Slovenia (SInet):</H2><H2>Address :</H2><H2>
+NIL systems integration and consulting Ltd.</H2><H2>Leskoskova 4</H2><H2>
+61000 Ljubljana, Slovenia</H2><H2>Contact :</H2><H2>Technical support group
+</H2><H2>Phone : +38 61 105 183</H2><H2>Fax : +38 61 105 381</H2><H2>E-mail :
+support@@Slovenia.EU.net</H2><H2>
+EUnet Contact-Information for Soviet-Union (EUnet/Relcom):</H2><H2>Address :
+</H2><H2>Relcom Corp</H2><H2>ul. Raspletina, 4, korp. 1</H2><H2>
+123060 Moscow, Russia</H2><H2>Contact :</H2><H2>Dmitry Burkov, Rudnev Aleksei
+</H2><H2>Phone : +7 095 943 4735, +7 095 196 7212, +7 095 198 3796</H2><H2>
+Fax : +7 095 198 9510</H2><H2>E-mail : postmaster@@USSR.EU.net</H2><H2>
+EUnet Contact-Information for Spain ():</H2><H2>Address :</H2><H2>
+Goya Servicios Telematicos SA -- EUnet Espana</H2><H2>Clara del Rey 8, 1-7
+</H2><H2>E-28002 Madrid, Spain</H2><H2>Contact :</H2><H2>Support Group
+</H2><H2>Phone : +34 1 413 48 56</H2><H2>Fax : +34 1 413 49 01</H2><H2>
+E-mail : postmaster@@Spain.EU.net</H2><H2>
+EUnet Contact-Information for Switzerland (EUnet Switzerland):</H2><H2>
+Address :</H2><H2>CHUUG/EUnet Switzerland</H2><H2>Zweierstrasse 35</H2><H2>
+CH-8004 Zuerich, Switzerland</H2><H2>Contact :</H2><H2>EUnet Postmaster
+</H2><H2>Phone : +41 1 291 45 80</H2><H2>Fax : +41 1 291 46 42</H2><H2>
+E-mail : pr@@Switzerland.EU.net</H2><H2>
+EUnet Contact-Information for Tunisia (rsinet.tn):</H2><H2>Address :</H2><H2>
+IRSIT /EUnet - Tunisia</H2><H2>BP 212, 2 Rue Ibn Nadime</H2><H2>
+1082 Cite Mahrajane</H2><H2>Tunis Tunisia</H2><H2>Contact :</H2><H2>
+Mondher Makni</H2><H2>Phone : +216 1 787 757 / 289 853</H2><H2>Fax :
++216 1 787 827</H2><H2>E-mail : mondher@@Tunisia.EU.net</H2><H2>
+EUnet Contact-Information for USA (UUNET):</H2><H2>Address :</H2><H2>
+UUNET Technologies Inc.</H2><H2>3110 Fairview Park Drive, Suite 570</H2><H2>
+Falls Chruch, Virginia 22042, USA</H2><H2>Contact :</H2><H2>Custumer Support
+</H2><H2>Phone : +1 703 204 8000</H2><H2>Fax : +1 703 204 8001</H2><H2>
+E-mail : info@@uunet.uu.net</H2></BODY></HTML>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

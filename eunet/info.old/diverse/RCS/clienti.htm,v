@@ -1,0 +1,49 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.07.19;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Abonati EUnet, profil personal</TITLE>
+<H1>Abonati EUnet, profil personal</H1>
+<UL>
+<LI><A HREF="clienti/adcon.htm">ADCON Telemetry SRL</A>
+<LI><A HREF="clienti/bmmc.txt">Bursa Maritima si de Marfuri (Constanta)</A>
+<LI><A HREF="clienti/datasyst.htm">Datasyst Microcomputer SRL</A>
+<LI><A HREF="clienti/elma.htm">I.C. Masini Electrice</A>
+<LI><A HREF="clienti/estico.htm">Estico SRL (Xerox dealer, Brasov)</A>
+<LI><A HREF="clienti/guru.htm">GURU - Grupul utilizatorilor Romani de UNIX</A>
+<LI><A HREF="clienti/iiruc.htm">IIRUC - SA</A>
+<LI><A HREF="clienti/ktt.txt">KT Technology SRL</A>
+<LI><A HREF="clienti/okcontac.txt">Fundatia pentru Strategii de Comunicare</A>
+<LI><A HREF="clienti/pcreport.txt">PC Report (Hot Soft, Tg. Mures)</A>
+<LI><A HREF="clienti/rds.htm">Romanian Data Soft SRL</A>
+<LI><A HREF="clienti/romdatex.htm">ROMDATEX SRL (Oracle dealer)</A>
+<LI><A HREF="clienti/romlotus.htm">ROMLOTUS SRL (Galati)</A>
+<LI><A HREF="clienti/scop.htm">SCOP SRL</A>
+<LI><A HREF="clienti/sinter.htm">SINTER-REF SA (Azuga)</A>
+<LI><A HREF="clienti/soros.htm">Fundatia SOROS pentru o societate deschisa</A>
+<LI><A HREF="clienti/telemach.htm">Telemach SRL (Baia Mare)</A>
+<LI><A HREF="clienti/who.htm">World Health Organization</A>
+</UL>
+
+
+@

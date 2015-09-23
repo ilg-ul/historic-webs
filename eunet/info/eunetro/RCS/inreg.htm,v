@@ -1,0 +1,89 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.16.17.45;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.21.23;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.13;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.44.03;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Procedura de inregistrare si informatii diverse</TITLE>
+<H2>Procedura de inregistrare:</H2>
+Pentru inregistrare, completati pe o hirtie cu antet <A HREF="formular.htm">formularul</A> urmator, pe care il puteti trimite prin fax la (1)312.6668. Acesta are valoare de comanda ferma.
+<H2>Diverse:</H2>
+<UL>
+<LI>In taxa de inregistrare sint incluse si 30 de minute de asistenta telefonica, pentru rezolvarea problemelor de configurare.  La cerere se poate asigura asistenta tehnica si la sediul clientului, contra cost.
+<LI>Deoarece initierea comunicatiei nu se poate face decit dinspre calculatorul clientului, acesta suporta separat costurile telefonice.
+<LI>Este responsabilitatea clientului sa isi preia in termen de 7 zile
+mesajele din calculatorul central, dupa care acestea vor fi sterse automat.
+<LI>EUnet se obliga sa asigure confidentialitatea datelor transferate prin
+acest sistem.
+<LI>EUnet nu poate fi facuta raspunzatoare pentru eventualele daune materiale
+sau morale rezultate din folosirea incorecta a acestui serviciu sau a
+informatiilor obtinute de aici.
+<LI>EUnet se obliga sa asigure functionarea permanenta a sistemului,
+neasumindu-si totusi raspunderea pentru intreruperile cauzate de
+nefunctionarea liniilor telefonice sau a alimentarii cu energie electrica.
+<LI>Facturile se emit lunar, plata facindu-se in dolari sau in lei,
+la cursul zilei. Exista posibilitatea achitarii in avans, reglementarea facindu-se trimestrial.
+</UL>
+
+
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+Pentru inregistrare, completati pe o hirtie cu antet <A HREF="formular.txt">formularul</A> urmator, pe care il puteti trimite prin fax la (1)312.6668. Acesta are valoare de comanda ferma.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

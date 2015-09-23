@@ -1,0 +1,75 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.14.48.40;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.29.47;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.01.21.42.41;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.45.21;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>gopher</TITLE>
+<H1>gopher</H1>
+Gopher este o denumire care vine de la <I> GO FOR </I> si defineste 
+un protocol si un program prin intermediul carora se pot consulta baze 
+de date interactiv. Programul este reprezentat ca o structura de meniuri 
+legaturile putind fi documente, directoare, foldere gen mail etc.
+La inceput gopher-ul a avut o dezvoltare exploziva, dar odata cu aparitia
+<a href=www.htm>WWW</a>-ului rata de crestere a traficului pe gopher este cu
+mult mai mica decit a <a href=www.htm>WWW</a>-ului.@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 8
+a8 2
+<TITLE>gopher</TITLE>
+<H1>gopher</H1>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

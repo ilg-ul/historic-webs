@@ -1,0 +1,35 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.11.05.14.20.06;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Reteaua EUnet</TITLE>
+<H2>Reteaua EUnet</H2>
+
+EUnet este o organizatie pan-europeana care ofera servicii de posta
+electronica si acces Internet in peste 28 de tari ale lumii.
+<UL>
+<LI><A HREF="eunetint.htm">Ce este EUnet?</A>
+<LI><A HREF="altetari.htm">EUnet in alte tari</A>.
+</UL>
+
+@

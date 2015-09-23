@@ -1,0 +1,48 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.05.14.17.42;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.42.45;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<plaintext>
+ROMDATEX SRL
+Calea Grivitei 6-10, Bucuresti
+
+Unic distribuitor autorizat al firmei Oracle in Romania
+
+postmaster@@romdatex.ro
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 7
+a7 1
+postmaster@@romdatex.eunet.ro
+@

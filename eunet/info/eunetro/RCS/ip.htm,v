@@ -1,0 +1,121 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.16.17.50;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.21.25;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.15;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.44.05;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Descrierea serviciului InterEUnet</TITLE>
+<H1>InterEUnet</H1>
+<H2>Descriere generala:</H2>
+Este serviciul complet, de acces permanent la Internet. Prin legatura
+permanenta (linie inchiriata pina la sediul nostru) puteti nu numai sa 
+accesati orice host din Internet, dar calculatoarele din reteaua dvs. 
+devin ele insele host in Internet. Puteti instala astfel servere de 
+informatii (gen gopher, www)
+sau baze de date cu structura particulara, pe care sa le oferiti spre 
+consultare tuturor celor interesati.  Acest serviciu va ofera 
+"<A HREF="../internet/access.htm">full Internet access</A>".
+<H2>Cerinte tehnice:</H2>
+<UL>
+<LI>Router IP sau calculator care are implementat protocolul SLIP sau PPP.
+<LI>Linie inchiriata de la sediul clientului la EUnet.
+<LI>Modemuri asincrone V32.bis/V42.bis (max.14400+compresii).
+</UL>
+<H2>Servicii oferite:</H2>
+<UL>
+<LI>Conectivitate IP permanenta, cu intreaga lume; routarea pachetelor se 
+face preferential prin infrastructura EUnet; legaturile internationale se 
+fac prin CIX (Commercial Internet Exchange), deci nu se aplica restrictii 
+gen "NSFnet Acceptable Use Policy".
+<LI>Posibilitatea de a conecta oricite calculatoare in retea, prin 
+inregistrarea unei clase de adrese, nu a unei adrese singulare.
+<LI>Domain Name Server pentru domeniul dumneavoastra.
+<LI>Acces la toate serviciile EUnet (Mail, News, Archive, telnet, ftp, 
+gopher, WWW, etc.) la cel mai bun pret posibil, taxarea facindu-se numai 
+la volum, nediferentiat pe servicii sau distanta.
+<LI>Asistenta tehnica la instalare si router management.
+</UL>
+Mai consultati <A HREF="tip.htm">Tarife</A> si procedura de <A HREF="inreg.htm">inregistrare</A>.
+<HR>
+<ADDRESS>actualizat: 19 August 1994 de vsv@@Romania.EU.net</ADDRESS>
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 2
+<TITLE>Descrierea serviciului InterEUnet IP</TITLE>
+<H1>InterEUnet IP</H1>
+d4 5
+a8 4
+Este serviciul complet, de acces permanent la Internet. Prin legatura 
+permanenta (linie inchiriata pina la sediul nostru) puteti nu numai sa accesati
+ orice host din Internet, dar calculatoarele din reteaua dvs. devin ele insele
+host in Internet. Puteti instala astfel servere de informatii (gen gopher, www)
+d20 6
+a25 2
+<LI>Conectivitate IP permanenta, cu intreaga lume; routarea pachetelor se face preferential prin infrastructura EUnet; legaturile internationale se fac prin CIX (Commercial Internet Exchange), deci nu se aplica restrictii gen "NSFnet Acceptable Use Policy".
+<LI>Posibilitatea de a conecta oricite calculatoare in retea, prin inregistrarea unei clase de adrese, nu a unei adrese singulare.
+d27 3
+a29 1
+<LI>Acces la toate serviciile EUnet (Mail, News, Archive, etc.) la cel mai bun pret posibil, taxarea facindu-se numai la volum, nediferentiat pe servicii sau distanta.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 7
+a10 1
+Este serviciul complet, de acces permanent la Internet. Prin legatura permanenta (linie inchiriata pina la sediul nostru) puteti nu numai sa accesati orice host din Internet, dar calculatoarele din reteaua dvs. devin ele insele host in Internet. Puteti instala astfel servere de informatii (gen gopher, www) sau baze de date cu structura particulara, pe care sa le oferiti spre consultare tuturor celor interesati.  Acest serviciu va ofera "<A HREF="../internet/access.htm">full Internet access</A>".
+d25 1
+a25 1
+Mai consultati <A HREF="tit.htm">Tarife</A> si procedura de <A HREF="inreg.htm">inregistrare</A>.
+@

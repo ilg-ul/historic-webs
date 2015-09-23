@@ -1,0 +1,130 @@
+head     1.3;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.3
+date     94.11.05.14.20.03;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.08;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.44.00;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Ce este EUnet</TITLE>
+<H2>EUnet pe scurt:</H2>
+EUnet a aparut in 1982, ca o retea UUCP concentrindu-se pe traficul de E-mail.
+De atunci a crescut pentru a deveni probabil cea mai extinsa organizatie care
+ofera servicii Internet, conectind peste 10.000 de organizatii prin intermediul 
+a 50 de noduri proprii (POP, point-of-presence).<BR>
+Cu servicii in peste 34 de tari, acoperind din Islanda pina la Vladivostok si de la Cercul Polar pina in Nordul Africii, EUnet are, dintre cei ce ofera servicii Internet,
+una dintre cele mai intinse suprafete acoperite.Traficul national, international si intercontinental este suportat prin propria infrastructura a EUnet-ului.
+Toate acestea au fost realizate fara sponsorizari sau finantari guvernamentale
+importante.<BR>
+Serviciile de baza EUnet includ E-mail (RFC-822 si X.400), File Transfer (FTP), Remote Login (TELNET, RLOGIN), Network News si Archive Access. Conectivitatea are la baza linii inchiriate, X.25, ISDN si linii analogice comutate, folosind protocoalele UUCP si IP.<BR>
+EUnet este prezent activ in urmatoarele tari: Austria, Belgia, Bulgaria, Cehia, Danemarca, Elvetia, Finlanda, Franta, Germania, Grecia, Islanda, Irlanda, Italia, Luxemburg, Norvegia, Olanda, Portugalia, Slovacia, Slovenia, Spania, fosta Uniune Sovietica si Tunisia.
+Incepind cu 1993 la EUnet s-au asociat si Algeria, Egipt, Polonia si Romania. 
+<H2>Inceputurile:</H2>
+Infiintarea EUnet a fost anuntata de specialistii din industrie si cercetare
+prezenti la intilnirea din aprilie 1982 a grupului Utilizatorilor de UNIX din
+Europa (EUUG, denumire care in 1990 a fost schimbata in EurOpen). La acea data nu existau metode general accesible pentru cercetatori sau pentru cei doritori sa schimbe E-mail cu corespondenti din Europa sau din Statele Unite. In cele mai multe din tarile europene nu existau retele nationale (ca exceptii notabile mentionam JANET in Marea Britanie si HEPnet), si de cele mai multe ori comunicatia intre institutii se facea ad-hoc (sau de loc!)...  Extinderea pe care a capatat-o USENET si reteaua UUCP in Statele Unite a aratat, inca din 1982, ca o asemenea structura, mai degraba anarhica, cu foarte mic overhead, dar extrem de eficienta, a fost posibila fara nici un suport guvernamental sau institutional.
+Cu toate acestea, diferentele dintre tarile Europei au facut ca modelul USENET ('find a willing host and exchange traffic') sa nu poata fi aplicat direct in Europa;
+tarifele telefonice mult mai mari, costurile suplimentare pentru conexiunile care traverseaza granite si diferentele nationale de limba, dezvoltare tehnica si reglementari,
+au impus o solutie diferita.<BR>
+Abordarea aleasa s-a bazat pe organizarea unui singur punct de concentrare a traficului de E-mail schimbat cu fiecare tara participanta.
+In fiecare tara acest model se regaseste, concentrind intr-un singur punct traficul intern si asigurind mai departe legatura cu nodul european.  Aceasta organizare in stea pe doua niveluri s-a dovedit a fi cea mai potrivita alternativa la modelul original al USENET.
+Grupurile participante in primele zile ale EUnet includ Institut National de Recherche en Informatique et Automatique (INRIA) din Paris, Royal Institute of Technology din Stockholm (KTH), University of Kent din Canterbury, University of Copenhagen si University of Genoa.
+Centrul de Matematica si Informatica din Amsterdam (CWI) a jucat rolul de hub si centru de administratie european, asigurind conectivitate intre nodurile din Europa si legatura cu Statele Unite.<BR>
+Protocolul folosit initial a fost UUCP, serviciile oferite fiind in primul rind RFC-822 E-mail si Network News.  In decursul urmatorilor citiva ani aproape toate regiunile din Comunitatea Europeana au fost acoperite, ceea ce a adus un trafic si un venit suficient pentru ca in 1986 conexiunea cu Statele Unite sa fie extinsa la o linie inchiriata rulind SLIP. In prima parte a anului 1987, linii inchiriate erau deja in uz intre nodurile nationale si cel european; mai tirziu in acest an primele servicii de IP pe linii inchiriate au fost puse la dispozitia abonatilor (servicii denumite astazi InterEUnet).
+<BR>Initial, respectind constringerile impuse de modelul american si de reglementarile
+monopoliste ale PTT-urilor din tarile europene, accesul la serviciile EUnet a fost permis numai membrilor institutiilor de cercetare.
+Din fericire, aceste restrictii, asa cum vom vedea in continuare, nu mai exista in prezent. <H2>Evolutia EUnet la nivel national</H2>
+Aproape toate nodurile EUnet au fost pornite de specialisti UNIX pasionati de comunicatii, fie in cadrul grupului local de UNIX, fie pe linga universitati sau institute de cercetare.
+Pornind cu o dotare minima, citeva masini UNIX si modemuri, aceste noduri au inceput sa ofere servicii de E-mail si Network News, atit institutiilor academice cit si centrelor de cercetare din industrie.  Fiecare abonat suporta costurile serviciilor oferite.  Pe masura ce numarul de abonati a crescut, a devenit posibila obtinerea unei linii inchiriate catre nodul din Amsterdam,  permitind astfel nodurilor nationale sa poata oferi gama completa de servicii Internet.  Evolutia permanenta a permis personalului EUnet sa urmareasca si sa inteleaga  in detaliu aspectele economice si tehnologice ale operarii acestor servicii.
+Acest model de infiintare si dezvoltare pas-cu-pas continua sa fie cel mai eficient model de urmat in tarile care, nu numai ca abia abia acum au inceput sa faca primii pasi catre integrarea economica europeana, dar care intimpina din partea infrastructurii de comunicatii dificultati majore. Abordarea pragmatica ('pay actual costs of use') a impus o stricta disciplina economica de la abonat pina la intreaga organizatie EUnet (disciplina ce lipseste complet in cele mai multe retele academice sau sponsorizate guvernamental).  Abonatii EUnet au mai mult de zece ani de experienta in intelegerea modului in care conectivitatea se incadreaza in imaginea globala a costurilor lor; nu exista mistere in ceea ce priveste costul actual si relatia dintre acesta si valoarea serviciilor oferite.  EUnet a aratat ca punerea la dispozitia utilizatorilor din cele mai diverse domenii, nu numai academic si cercetare,  a serviciilor Internet este o alternativa economic viabila si de dorit, chiar cu structura artificial de inalta a preturilor telefonice si a dificultatilor inerente in prezent in Europa de Est.
+<H2>Relatiile cu celelalte retele</H2>
+In timp, pe masura ce si alte retele au inceput sa apara (cum ar fi EARN si NORDUnet), si comunitatea retelelor academice si de cercetare a inceput sa se dezvolte, EUnet a initiat si s-a alaturat unei varietati de eforturi de cooperare, inclusiv participarea la discutiile initiale care au condus la constituirea consortiului care sa administreze legatura CERN-Amsterdam, consortiu ce a inclus si CERN, NORDUnet, EARN si IBM/EASInet.  EUnet este de asemenea implicat in contracte de backup si diverse servicii cu alte retele internationale,
+cum sint NORDUnet (de la care a obtinut conectivitate cu tarile nordice timp de citiva ani).
+EUnet a fost prezent la discutiile initiale care au condus la formarea Ebone, care s-a bazat in mare parte pe legaturile CERN-Amsterdam si Stockholm-Amsterdam.
+<H2>Tranzitia la un statut comercial</H2>
+Prin 1990 in cadrul EUnet s-a recunoscut necesitatea unor schimbari majore. Succesul crescut al Internet in general si al EUnet in particular a facut ca nodurile EUnet sa depaseasca in necesitati posibilitatile oferite de institutiile care le gazduiau si a facut necesara o alta abordare privind organizarea si operarea retelei. Cerintele crescute de echipament si de linii inchiriate au introdus un factor de risc si necesitatea existentei unui capital,
+cerinte pe care mediile academice sau grupurile de UNIX nu le mai puteau satisface.<BR>
+La inceputul lui 1991 a fost angajat un manager pentru nivelul european al EUnet-ului (Glenn Kowack) si au fost elaborate analize, definindu-se strategiile de urmat in anii '90.<BR>
+In 1992 s-a hotarit ca EUnet sa fie organizat si din punct de vedere formal pe baze comerciale, ceea ce pina in prezent s-a realizat pe ambele niveluri: nodurile EUnet la nivel national s-au desprins de organizatiile care le-au gazduit si s-au reorganizat ca societati comerciale, si, in decembrie 1992, a fost formata EUnet Limited in Irlanda, organizata de asemenea ca societate comerciala. Toate activitatile de reprezentare la nivel european ale EUnet se desfasoara prin EUnet Limited,  ale carei actiuni sint detinute de EUnet-urile care administreaza nodurile nationale si EurOpen (care detine o minoritate).
+<H2>Structura decizionala</H2>
+Procesul informal de luare a deciziilor din trecut a fost inlocuit de o structura mai regulata si mai bine organizata.  Pe linga existenta unui consiliu de administratie, ales de actionari, care se ocupa de problemele europene ale EUnet,  de citeva ori pe an se organizeaza si intilniri cu reprezentanti ai tuturor nodurilor, existind periodic atit intilniri cu caracter tehnic, cit si intilniri pentru discutii cu caracter economic si de management.<BR>
+La intilnirile cu caracter tehnic participa specialistii care efectiv administreaza nodurile nationale, problemele abordate fiind de noi arhitecturi, operare, securitate si de proiectare a noilor servicii.  Pe linga discutiile in plen, se organizeaza discutii pe sectiuni, pentru rezolvarea anumitor probleme concrete.<BR>
+La intilnirile cu caracter de business participa managerii si cei care au atributiuni de marketing, abordindu-se probleme de costuri, strategie si relatii cu alte retele sau furnizori.
+<H2>Independenta infrastructurii</H2>
+In momentul transformarii EUnet intr-o societate comerciala, trei alternative au fost avute in vedere pentru rezolvarea problemei traficului intre noduri: utilizarea serviciilor a ceea ce atunci se numea Operational Unit (in prezent numita EuropaNET), utilizarea infrastructurii Ebone sau dezvoltarea unei infrastructuri de routare proprii.  Solutia cu EuropaNET a fost respinsa cind s-a descoperit ca organizatia care finanta EuropaNET nu accepta decit alte organizatii de cercetare care se bucura de sprijin financiar guvernamental sa aiba un rol activ in cadrul retelei.
+Utilizarea Ebone a fost respinsa din doua motive: intii, statutul neclar al Ebone facea imposibila utilizarea sa ca baza pentru servicii comerciale; apoi, lucru care a devenit evident in 1992, faptul ca Ebone este in mare parte o colectie de retele cu finantare
+guvernamentala, ar fi facut ca pe termen lung sa apara interese divergente, ceea ce ar nu ar fi condus la un raspuns corespunzator la cererile crescinde din partea tot mai numerosilor clienti comerciali. Ca rezultat al acestei analize, EUnet a decis in 1992 sa continue procesul de realizare a propriei infrastructuri.<BR>
+Infrastructura actuala se extinde acum in aproape intregul sistem EUnet, incluzind o fractiune de 512Kb din linia T1 dintre Amsterdam si UUnet in Statele Unite, si de acolo la CIX (Commercial Internet eXchange) si NSFnet. EUnet are propriile linii inchiriate intre Amsterdam si aprope toate nodurile nationale, si, in vara lui 1993, a instalat prima linie comerciala cu Moscova (prin nodurile EUnet din Copenhaga, Helsinki si Tallinn).<BR>
+Majoritatea liniilor EUnet interne sint de 64 sau 128Kb. Ca urmare a cresterii impresionante a bazei de utilizatori, traficul si implicit viteza liniilor s-a dublat cam la fiecare 6-8 luni.  Din punct de vedere tehnic, nucleul retelei EUnet este format din linii inchiriate si routere Cisco, rulind in principal protocolul de routare BGP3.<BR>
+Astfel, decizia EUnet de a-si dezvolta propria infrastructura s-a dovedit justa si i-a permis totodata sa mentina un grad corespunzator de control asupra retelei pentru a putea asigura inaltul nivel calitativ cerut de abonati.
+<H2>Structura completa a serviciilor</H2>
+Astazi, EUnet isi propune sa ofere nu numai conectivitate, ci o gama completa de servicii, structurate in trei componente vitale: suport local pentru fiecare client, infrastructura europeana si modalitati optime de acces la resursele Internet din intreaga lume.  EUnet are cei mai buni specialisti in domeniul retelelor, cu experienta de ani de zile, in nodurile din fiecare tara in care opereaza.  Ei sint familiarizati nu numai cu administrarea internationala a retelei, ci si cu problemele specifice pe plan national, ca reglementari, PTT, legaturi cu alte retele, etc.  Nu in ultimul rind, EUnet se ocupa permanent de imbunatatirea relatiilor cu alte retele din Internet, prin participarea la numeroase acorduri bilaterale si de grup.
+<H2>Disponibilitate</H2>
+Serviciile EUnet sint disponibile oricaror organizatii sau entitati din zona
+in care EUnet opereaza.<BR>
+Consideram ca orice alte restrictii de utilizare sau de selectie a utilizatorilor, (mai mult decit cele autoimpuse de 'network etiquete'), nu sint deloc folositoare dezvoltarii Internet-ului.
+Orice constringeri care reduc baza potentiala de clienti a Internet-ului este in defavoarea comunitatilor care ar putea avea un mare cistig de pe urma conectivitatii.  
+<H2>Aspecte economice</H2>
+Fiecare nivel al retelei EUnet trebuie sa plateasca pentru acoperirea costurilor sale,
+fiecare serviciu trebuie sa isi acopere costurile si fiecare abonat (utilizator sau organizatie) trebuie sa plateasca serviciile pe care le utilizeaza.  Desi la prima vedere toate aceste consideratii pot parea atit de evidente incit sa nu mai merite a fi mentionate,
+situatia concreta a celor mai multe retele europene este diferita.  EUnet a incercat in general sa evite obsesia celorlalte retele de a acoperi din start necesitati care nu au fost inca cerute si de a face apel la tot mai importante finantari guvernamentale. (A devenit chiar o moda ca toata lumea sa aiba nevoie de canale pe satelit sau de linii de mare viteza, 2-34Mbs, spre deliciul furnizorilor de asemenea echipamente, care nu rareori contribuie pe cai mai mult sau mai putin directe la proiectarea retelelor cu finantare guvernamentala).<BR>
+Politica EUnet a fost sa-si dezvolte infrastructura pas cu pas, pe baza cerintelor actuale ale utilizatorilor, asigurind astfel un raport optim intre pret si serviciile oferite, evitind incarcarea costurilor pentru suportarea unor cheltuieli inca nejustificate. Factori ca progresele inregistrate de EUnet in dezvoltarea tehnica si organizatorica, evolutia preturilor canalelor de comunicatie in Europa si permanenta crestere a eficientei folosirii resurselor, au permis cresterea permanenta a vitezei de comunicatie pentru a veni la timp
+in intimpinarea cerintelor clientilor tot mai numerosi.<BR>
+Odata cu tranzitia la un statut comercial, acest proces a fost accelerat substantial, mai ales datorita posibilitatii mai mari de a obtine si utiliza capital.<BR>
+In general, EUnet nu a urmarit obtinerea de fonduri externe: finantarile importante pot fi aparent interesante pe termen scurt, dar pe termen lung pot avea efecte secundare nedorite;
+ele tind sa conduca la ignorarea legaturii critice care exista intre costurile interne si preturile pe care le platesc clientii, si tind sa distorsioneze evolutia naturala a fiecarui nod EUnet.
+<H2>Se cauta un protocol</H2>
+Comunitatea retelelor din Europa anilor '80 (si probabil chiar si in prezent) a fost dominata de discutiile dintre adeptii si oponentii modelului OSI.  EUnet nu a suferit din cauza acestor abordari sectare, preferind sa se aplece asupra scopului final al protocolului, transportul pachetelor de date, mai mult decit asupra 'culorii' lor. Selectia tehnologiilor a fost facuta ca urmare a cererii pietii, a criteriilor economice si de interconectivitate.  Alegerea protocolului IP a fost nu neaparat rezultatul unei previziuni
+deosebite, cit mai ales consecinta disciplinei impuse de auto-finantare.
+<H2>A fi sau a nu fi?</H2>
+In prezent, cind Internet a crescut pina la o dimensiune semnificativa, a atras atentia analistilor economici.  Unii dintre ei au afirmat ca, din punct de vedere teoretic, Internet nu poate deveni o piata.  Daca se va dovedi ca au avut dreptate, atunci o minunata ocazie de crestere a calitatii, accesibilitatii si deschiderii, prin competitie si inovatie, va fi pierduta.<BR>Bineinteles ca nu avem acum posibilitatea de a sti exact cum vor evolua lucrurile, dar exista o vorba care ne vine in minte:'cel ce argumenteaza ca un anume lucru nu poate fi facut sa aiba grija sa se fereasca din calea celui care il va face'.<BR>
+Pe termen lung, optiunea este simpla: ori continuam pe linia serviciilor scumpe, oferite de companiile care isi propun monopolul, ori ne impacam cu traditionala calitate studenteasca a serviciilor retelelor academice; sau, optind pentru solutia unui Internet comercial,avem sansa sa remodelam complet felul in care percepem relatiile dintre distanta, observatie si actiune.
+<H2>Incheiere</H2>
+EUnet a demonstrat ca un sistem organizational eficient, relativ intins, poate fi construit pas cu pas de specialisti in calculatoare si management, fara presupusa coordonare a comisiilor academice sau guvernamentale. Larga accesibilitate a microsistemelor actuale,
+creaza premizele unor dezvoltari fara precedent in domeniul retelelor pe scara larga (WAN).
+EUnet impreuna cu alte retele comerciale similar structurate ramine unul din promotorii tehnologiilor retelelor moderne, oferind cu generozitate sansa unei societati deschise.
+<HR>
+<ADDRESS>actualizat: 24 August 1994 de vsv@@Romania.EU.net</ADDRESS>
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

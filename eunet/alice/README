@@ -1,0 +1,94 @@
+-- $Id: README,v 2.1 1994/11/01 14:42:04 joke Rel $
+
+
+          Welcome to the Texinfo edition of:
+
+               ALICE'S ADVENTURES IN WONDERLAND/
+               THROUGH THE LOOKING-GLASS
+                    by Lewis Carroll
+
+          Literary Freeware:  Not for Commercial Use
+   Copyright (c) 1994 The WindSpiel Company. A JOKE Production.
+
+				# 
+
+   This version of the well-known book by Lewis Carroll is reproduced
+in the GNU Texinfo format, i.e., a TeX macro package developed at the *Free
+Software Foundation* that allows for easy "online manual" creation, while
+being convertible into a variety of different other formats.
+
+This "convertability scheme" has been extended in this project to the use
+of various PostScript typefaces. What does this mean for you? Well, you can
+print this book in any PS font you like, provided you have a certain
+set of freely available tools installed on your system.
+
+These tools are: TeX 3.14 and dvips(1) 5.5xx. That's all folks!
+(Hmmm, at least if you work on an unixoid system, that has a C-shell installed,
+in worst case, you'll have to read the "configure" script, and follow the steps
+by hand :-(
+
+That's why this distribution comes with some pre-generated versions, that
+should suit most needs, and for the *hackers* there's the "print-it-yourself"
+kit:
+
+          |-README                   this file
+          |-CONTENTS                 contents of Alice in Wonderland, etc
+          |-alice-2.0-US.dvi.gz	     TeX DVI, US letter size
+          |-alice-2.0-US.ps.gz       Computer Modern PostScript, US letter
+          |-alice-2.0.dvi.gz         TeX DVI, A4 metric paper
+|-carroll-|-alice-2.0.ps.gz          Computer Modern PostScript, A4 paper
+          |-alice-2.0.info.gz        GNU Info format
+          |-alice-2.0.tar.gz         the "print-it-yourself" kit
+          |-alice-2.0.txt.gz         formatted ASCII
+          |-alice-2.0.html.tar.gz    HTML version (World-Wide Web)
+
+
+				# 
+
+   Anyway, in the best case, you unpack the "print-it-yourself kit", type
+in something like:
+
+	example% configure --a4 --font palatino
+	example% make ps
+
+To get the book on A4 (metric) paper, in the Palatino typeface. And print out
+the resulting PostScript file on your PostScript printer. For Computer Modern
+type fonts, i.e., the standard TeX fonts just don't use the "--font" option:
+
+	example% configure --a4
+	example% make
+
+This is especially useful, if you don't want (or can't) use the PostScript
+option, but want to get a TeX DVI file only, to print this.
+
+As for the PostScript option: included are "times" = Times Roman, "palatino"
+= Palatino, "bookman" = Bookman, and "newcentury" = New Centry Schoolbook
+font files. But from the files in the "fonts" dir it's really straight
+forward to add support for other typefaces.)
+
+				# 
+
+   Hackers (or other curious folks) should look into the "fonts" directory
+and examine "texinfo.foo", in conjunction with a peek into "configure", to
+see what's going on here. But anyway, all this is IMHO very easy to grasp.
+It should also be easy to add *any* available PostScript font.
+
+				# 
+
+The Texinfo Edition 2.0 is now available from the following sites:
+
+  *  Europe:	ftp://ftp.Germany.EU.net/pub/books/carroll/
+
+				#
+
+Have fun,	-joke              *`)|(`*
+                                    (o o)
+---------------------------------ooO-(_)-Ooo-----------------------------------
+ ===    ____                          ===   Jörg Heitkötter
+ ===   /      /   /   ___    ___  _/_ ===   Research & Development
+ ===  /----  /   /  /   /  /___/  /   ===   EUnet Deutschland GmbH
+ === /____  /___/  /   /  /___   /    ===   Emil-Figge-Str. 80
+ =====                              =====   D-44227 Dortmund
+ ===== Connecting Europe since 1982 =====   Vox/Fax +49 231 972 -00/-1111
+--------------------------------ooO-------Ooo----------------------------------
+ <A HREF="http://www.Germany.EU.net/people/joke.html"> The Jester's FAQ </A>

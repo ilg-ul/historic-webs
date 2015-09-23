@@ -1,0 +1,30 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.27.18;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@postmaster@@buc.soros.ro
+postmaster@@iasi.soros.ro
+postmaster@@cluj.soros.ro
+postmaster@@cpc.soros.ro
+
+@

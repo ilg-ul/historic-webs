@@ -1,0 +1,46 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.05.14.17.57;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.42.54;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<plaintext>
+
+World Health Organization 
+
+wholoro@@who.eunet.ro
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 5
+a5 1
+postmaster@@who.eunet.ro
+@

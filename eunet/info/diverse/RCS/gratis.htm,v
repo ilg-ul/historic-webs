@@ -1,0 +1,95 @@
+head     1.3;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.3
+date     94.11.05.14.18.39;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.01.14;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.33.16;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Acceptable Use of the EuropaNET Service</TITLE>
+<H1>Acceptable Use of the EuropaNET Service</H1>
+
+<H2>Pentru amatorii de chilipiruri, care doresc sa se conecteze "pe gratis"
+la retelele academice ( PUB sau ICI ), iata citeva detalii "interesante":</H2>
+
+
+Use of the EuropaNET Service is restricted to the community of
+researchers, including industrial research departments as well as
+governmental and Commission agencies for their programmes concerned
+with research and development, and academic institutions.<P>
+
+The EuropaNET Service will be made available to subscribing
+organisations, proposed by DANTE subject to access policies of the
+connecting networks and subject to the applicable regulations for the
+subscribing organisations in their respective countries.<P>
+
+Use of the EuropaNET Service is permitted only for instruction,
+research and development (including the dissemination of results) and
+for administration or direct support of such uses.<P>
+
+It is not permitted to use the EuropaNET Service for any activity
+which purposely:
+<UL>
+<LI>    seeks to gain unauthorised access to the resources of the connected networks;
+
+<LI>    adversely affects the operation of the EuropaNET Service or jeopardises the use or performance for other users;
+
+<LI>    wastes resources (people, capacity, computer) through such activity;
+
+<LI>    destroys the integrity of computer-based information;
+
+<LI>    compromises the privacy of users.
+</UL>
+
+Use for commercial activities is NOT permitted.
+
+<HR>
+<ADDRESS>Reamintim ca reteaua EUnet, in toate tarile in care activeaza, fiind o retea
+comerciala, nu impune nici un fel de restrictii de utilizare.</ADDRESS>
+
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+la PUB, iata citeva detalii "interesante":</H2>
+@

@@ -1,0 +1,59 @@
+head     1.3;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.3
+date     94.11.08.16.18.04;  author vsv;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.26;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.44.14;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Servicii EUnet (descriere si tarife)</TITLE>
+
+
+<A NAME="yy"></A>
+text capitol <B>yy</B>
+<BR>
+<A NAME="zz"></A>
+text capitol <B>zz</B>
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

@@ -1,0 +1,166 @@
+head     1.6;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.6
+date     94.12.01.21.25.44;  author ilg;  state Exp;
+branches ;
+next     1.5;
+
+1.5
+date     94.11.20.21.15.40;  author ilg;  state Exp;
+branches ;
+next     1.4;
+
+1.4
+date     94.11.08.16.17.40;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.21.21;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.10;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.44.02;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.6
+log
+@adaugate puncte de contact.
+@
+text
+@<TITLE>EUnet Romania (servicii, tarife, etc.)</TITLE>
+<H2>Servicii oferite de EUnet Romania</H2>
+
+EUnet Romania va ofera cea mai profesionala si mai performanta solutie de
+comunicatii electronice si de access la <A HREF=../internet/internet.htm>Internet</A>.<P>
+Tarifele practicate va dau posibilitatea sa transmiteti
+informatii, in deplina securitate, la preturi mai mici si cu o fiabilitate
+net superioara mijloacelor traditionale precum fax-ul si telefonul.<P>
+Serviciile puse la dispozitie de firma noastra sunt: 
+<UL>
+<LI>Servicii de tip <A HREF=../internet/email.htm>E-mail</A>:
+<UL>
+<LI>EUnetMail (Personal Server) - <A HREF="mailps.htm">descriere</A> si <A HREF="tmailps.htm">tarife</A>
+<LI>EUnetMail - <A HREF="mail.htm">descriere</A> si <A HREF="tmail.htm">tarife</A> 
+</UL>
+<LI>Servicii directe de acces la <A HREF=../internet/internet.htm>Internet</A>:
+<UL>
+<LI>PersonalEUnet - <A HREF="ippers.htm">descriere</A> si <A HREF="tippers.htm">tarife</A>
+<LI>DialEUnet - <A HREF="ipdial.htm">descriere</A> si <A HREF="tipdial.htm">tarife</A>
+<LI>InterEUnet - <A HREF="ip.htm">descriere</A> si <A HREF="tip.htm">tarife</A>
+</UL>
+</UL>
+Pentru alte detalii ne puteti contacta prin 
+<A HREF="../diverse/raspuns.htm">pagina interactiva</A> sau 
+<A HREF="contact.htm">direct</A>.
+<HR>
+<ADDRESS>actualizat: 1 Decembrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+
+@
+
+
+1.5
+log
+@reorganizat compact, cu descriere si tarife
+@
+text
+@d23 3
+a25 1
+
+d27 1
+a27 1
+<ADDRESS>actualizat: 20 Noiembrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a1 1
+<TITLE>EUnet Romania (servicii, tarife, abonati)</TITLE>
+d4 5
+a8 2
+EUnet Romania va ofera alternativa cea mai profesional si mai performanta de
+comunicatii electronice si access Internet<P>
+d11 4
+a14 5
+<LI><A HREF="mailps.htm">EUnetMail (Personal Server)</A>
+<LI><A HREF="mail.htm">EUnetMail</A> 
+<LI><A HREF="ippers.htm">PersonalEUnet</A>
+<LI><A HREF="ipdial.htm">DialEUnet</A>
+<LI><A HREF="ip.htm">InterEUnet</A>
+d16 1
+a16 8
+
+<HR>
+<H2>Tarife:</H2>
+
+Tarifele practicate de EUnet Romania va dau posibilitatea sa transmiteti
+informatii, in deplina securitate, la preturi mai mici si cu o fiabilitate
+net superioara mijloacelor traditionale precum fax-ul si telefonul. 
+Tarifele corespunzatoare serviciilor noastre sunt: 
+d18 3
+a20 5
+<LI><A HREF="tmailps.htm">EUnetMail (Personal Server)</A>
+<LI><A HREF="tmail.htm">EUnetMail</A>
+<LI><A HREF="tippers.htm">PersonalEUnet</A>
+<LI><A HREF="tipdial.htm">DialEUnet</A>
+<LI><A HREF="tip.htm">InterEUnet</A>
+d22 1
+d25 1
+a25 1
+<ADDRESS>actualizat: 01 Noiembrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 14
+a14 3
+<TITLE>Detalii despre EUnet Romania</TITLE>
+<H1>Heading</H1>
+Text
+d16 16
+a31 1
+<ADDRESS>Author</ADDRESS>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

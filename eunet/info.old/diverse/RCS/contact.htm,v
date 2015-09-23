@@ -1,0 +1,44 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.07.31;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@Daca sinteti interesati in a afla mai multe detalii despre serviciile
+noastre, nu ezitati sa ne contactati pe E-mail sau telefonic.
+
+Puteti folosi urmatoarele numere de 
+<UL>
+<LI>telefon:
+<UL>
+<LI>312.6886 
+<LI>781.5433
+</UL>
+<LI>sau fax:
+<UL>
+<LI>312.6668
+</UL>
+</UL>
+
+
+Daca aveti deja acces la o alta retea, puteti folosi adresa de Internet: <ADDRESS>sales@@eunet.ro</ADDRESS>
+
+@

@@ -1,0 +1,44 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.05.14.17.28;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.42.38;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<plaintext>
+IIRUC SA
+(are nodul central in Bucuresti si filiale in toata tara)
+
+postmaster@@iiruc.ro
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 4
+@

@@ -1,0 +1,31 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.28.50;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Detalii despre EUnet Romania</TITLE>
+<H1>Heading</H1>
+Text
+<HR>
+<ADDRESS>Author</ADDRESS>
+
+@

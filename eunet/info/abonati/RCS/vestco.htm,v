@@ -1,0 +1,35 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.11.16.15.12.49;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<title>Vest Conex SA (Cluj-Napoca)</title>
+<A HREF=VESTCO.EXE>Pentru a copia programul de comunicatii tastati <B>d</B> pe aceasta legatura si selectati protocolul dorit</A>
+
+<plaintext>
+Vest Conex S.A.
+Bd. Constantin Brincusi 33
+Cluj-Napoca
+
+office@@vestco.eunet.ro
+
+@

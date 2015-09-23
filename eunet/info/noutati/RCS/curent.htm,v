@@ -1,0 +1,34 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.12.01.21.29.29;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Noutati de ieri... si de azi...</TITLE>
+
+<H2>01 Dec 94</H2>
+Noi reduceri de preturi la trafic <A HREF="../eunetro/oferta.htm">
+(oferta speciala)</A>
+<P>
+Noi precizari despre actiunea <A HREF="../bbs/index.htm">
+<B>Un BBS pentru fiecare</B></A>
+
+@

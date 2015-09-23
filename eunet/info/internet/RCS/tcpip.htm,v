@@ -1,0 +1,72 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.14.48.42;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.29.49;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.01.21.42.43;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.45.22;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>TCP/IP</TITLE>
+<H1>TCP/IP</H1>
+TCP/IP sunt initialele de la <b>Transmission Control Protocol / Internet 
+Protocol </b>, protocolul folosit de zeci de milioane de oameni cind se
+conecteaza la <B><a href=internet.htm>Internet</a></b> sau la alte retele
+bazate pe el.@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 5
+a5 2
+<TITLE>TCP/IP</TITLE>
+<H1>TCP/IP</H1>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

@@ -1,0 +1,420 @@
+<TITLE>Mosaic for X version 2.0 Fill-Out Form Support</TITLE>
+<H1>Mosaic for X version 2.0 Fill-Out Form Support</H1>
+
+Here are details about what we have implemented for fill-out forms in
+<A HREF="../help-on-version-2.0.html">Mosaic for X 2.0</A>.  <P>
+
+<H2>The FORM Tag</H2>
+
+The <CODE>FORM</CODE> tag specifies a fill-out form within an HTML
+document.  More than one fill-out form can be in a single document,
+but forms cannot be nested. <P>
+
+<CODE>&lt;FORM ACTION="url"&gt; ... &lt;/FORM&gt;</CODE> <P>
+
+The attributes are as follows: <P>
+
+<UL>
+<LI> <CODE>ACTION</CODE> is the URL of the query server to which the
+     form contents will be submitted; if this attribute is absent,
+     then the current document URL will be used.
+<LI> <CODE>METHOD</CODE> is the HTTP/1.0 method used to submit the
+     fill-out form to a query server.  Which method you use depends on
+     how your particular server works; we strongly recommend use of
+     (or near-term migration to) <CODE>POST</CODE>.  The valid choices
+     are:
+<UL>
+<LI> <CODE>GET</CODE> -- this is the default method and causes the
+     fill-out form contents to be appended to the URL as if they were
+     a normal query.
+<LI> <CODE>POST</CODE> -- this method causes the fill-out form
+     contents to be sent to the server in a data body rather than as
+     part of the URL.
+</UL>
+<LI> <CODE>ENCTYPE</CODE> specifies the encoding for the fill-out form
+     contents.  This attribute only applies if <CODE>METHOD</CODE> is
+     set to <CODE>POST</CODE> -- and even then, there is only one
+     possible value (the default,
+     <CODE>application/x-www-form-urlencoded</CODE>) so far.
+</UL>
+<BLOCKQUOTE>
+<B>NOTE:</b>  If you want to use the <CODE>METHOD</CODE> of type <CODE>POST</CODE>
+with the NCSA httpd you will need to get version 1.0a5 or later.  <P>
+</BLOCKQUOTE>
+
+Inside a <CODE>FORM</CODE> you can have anything except another
+<CODE>FORM</CODE>.  Specifically, <CODE>INPUT</CODE>,
+<CODE>SELECT</CODE>, and <CODE>TEXTAREA</CODE> tags are used to
+specify interface elements within the form. <P>
+
+Forms are not automatically visually differentiated from the rest of a
+document.  We recommend using the <CODE>HR</CODE> (horizontal rule)
+tag before and after a form to cleanly differentiate it from
+surrounding text and/or other forms. <P>
+
+<H2>The INPUT Tag</H2>
+
+The <CODE>INPUT</CODE> tag is used to specify a simple input element
+inside a <CODE>FORM</CODE>.  It is a standalone tag; it does not
+surround anything and there is no terminating tag -- i.e., it is used
+in much the same way as <CODE>IMG</CODE>. <P>
+
+In Mosaic for X, various types of <CODE>INPUT</CODE> tags are
+instantiated as Motif widgets (text entry fields, toggle buttons,
+pushbuttons, etc.). <P>
+
+The attributes to <CODE>INPUT</CODE> are as follows: <P>
+
+<UL>
+<LI> <CODE>TYPE</CODE> must be one of: 
+<UL>
+<LI> "text" (text entry field; this is the default)
+<LI> <A NAME="password">"password"</A> (text entry field; entered
+     characters are represented as asterisks)
+<LI> "checkbox" (a single toggle button; on or off)
+<LI> <A NAME="radio">"radio"</A> (a single toggle button; on or off;
+     other toggles with the same <CODE>NAME</CODE> are grouped into
+     "one of many" behavior)
+<LI> <A NAME="submit">"submit"</A> (a pushbutton that causes the
+     current form to be packaged up into a query URL and sent to a
+     remote server)
+<LI> "reset" (a pushbutton that causes the various input elements in
+     the form to be reset to their default values)
+</UL>
+<LI> <CODE>NAME</CODE> is the symbolic name (not a displayed name --
+  normal HTML within the form is used for that) for this input field.
+  <I>This must be present for all types <B>but</B> "submit" and
+  "reset"</I>, as it is used when putting together the query string
+  that gets sent to the remote server when the filled-out form is
+  submitted.
+<LI> <CODE>VALUE</CODE>, for a text or password entry field, can be
+     used to specify the default contents of the field.  For a
+     checkbox or a radio button, <CODE>VALUE</CODE> specifies the
+     value of the button <I>when it is checked</I> (unchecked
+     checkboxes are disregarded when submitting queries); the default
+     value for a checkbox or radio button is "on".  
+     For types "submit" and "reset", <CODE>VALUE</CODE> can be used to
+     specify the label for the pushbutton.
+<LI> <CODE>CHECKED</CODE> (no value needed) specifies that this
+     checkbox or radio button is checked by default; <I>this is only
+     appropriate for checkboxes and radio buttons</I>.
+<LI> <CODE>SIZE</CODE> is the physical size of the input field in
+  characters; <I>this is only appropriate for text entry fields and
+  password entry fields</I>.  If this is not present, the default is
+  20.  Multiline text entry fields can be specified as
+  <CODE>SIZE=width,height</CODE>; e.g. <CODE>SIZE=60,12</CODE>.
+<LI> <CODE>MAXLENGTH</CODE> is the maximum number of characters that
+  are accepted as input; <I>this is only appropriate for text entry
+  fields and password entry fields</I> (and only for single-line text
+  entry fields at that).  If this is not present, the default will be
+  unlimited.  The text entry field is assumed to scroll appropriately
+  if <CODE>MAXLENGTH</CODE> is greater than <CODE>SIZE</CODE>.
+</UL>
+
+<H2>The SELECT Tag</H2>
+
+Inside <CODE>&lt;FORM&gt; ... &lt;/FORM&gt;</CODE>, any number of
+<CODE>SELECT</CODE> tags are allowed, freely intermixed with other
+HTML elements (including <CODE>INPUT</CODE> and <CODE>TEXTAREA</CODE>
+elements) and text (but <I>not</I> additional forms).  In Mosaic for
+X, <CODE>SELECT</CODE> tags are instantiated as Motif option menus and
+scrolled lists. <P>
+
+<I>Unlike</I> <CODE>INPUT</CODE>, <CODE>SELECT</CODE> has both opening
+and closing tags.  Inside <CODE>SELECT</CODE>, only a sequence of
+<CODE>OPTION</CODE> tags -- each followed by an arbitrary amount of
+plain text (<I>no HTML markup</I>) -- is allowed; for example: <P>
+
+<PRE>
+        &lt;SELECT NAME="a-menu"&gt;
+        &lt;OPTION&gt; First option.
+        &lt;OPTION&gt; Second option.
+        &lt;/SELECT&gt;
+</PRE>
+
+The attributes to <CODE>SELECT</CODE> are as follows: <P>
+
+<UL>
+<LI> <CODE>NAME</CODE> is the symbolic name for this
+     <CODE>SELECT</CODE> element.
+  <I>This must be present, as it is used when putting together the
+  query string for the submitted form.</I>
+<LI> <CODE>SIZE</CODE>: if <CODE>SIZE</CODE> is
+     1 or if the <CODE>SIZE</CODE> attribute is missing, by default
+     the <CODE>SELECT</CODE> will be represented as a Motif option
+     menu.  If <CODE>SIZE</CODE> is 2 or more, the <CODE>SELECT</CODE>
+     will be represented as a Motif scrolled list; the value of
+     <CODE>SIZE</CODE> then determines how many items will be visible.
+<LI> <CODE>MULTIPLE</CODE>, if present (no value), specifies that the
+     <CODE>SELECT</CODE> should allow multiple selections (<I>n</I> of
+     many behavior).  The presence of <CODE>MULTIPLE</CODE> forces the
+     <CODE>SELECT</CODE> to be represented as a Motif scrolled list,
+     regardless of the value of <CODE>SIZE</CODE>.
+</UL>
+
+The attributes to <CODE>OPTION</CODE> are as follows: <P>
+
+<UL>
+<LI> <CODE>SELECTED</CODE> specifies that this option is selected by
+     default.  If the <CODE>SELECT</CODE> allows multiple selections
+     (via the <CODE>MULTIPLE</CODE> attribute), multiple options can
+     be specified as <CODE>SELECTED</CODE>.
+</UL>
+
+<H2>The TEXTAREA Tag</H2>
+
+The <CODE>TEXTAREA</CODE> tag can be used to place a multiline text
+entry field with optional default contents in a fill-out form.  The
+attributes to <CODE>TEXTAREA</CODE> are as follows: <P>
+
+<UL>
+<LI> <CODE>NAME</CODE> is the symbolic name of the text entry field.
+<LI> <CODE>ROWS</CODE> is the number of rows (vertical height in
+     characters) of the text entry field.
+<LI> <CODE>COLS</CODE> is the number of columns (horizontal width in
+     characters) of the text entry field.
+</UL>
+
+<CODE>TEXTAREA</CODE> fields automatically have scrollbars; any amount
+of text can be entered in them. <P>
+
+The <CODE>TEXTAREA</CODE> element <I>requires</I> both an opening and
+a closing tag.  A <CODE>TEXTAREA</CODE> with no default contents looks
+like this: <P>
+
+<PRE>
+        &lt;TEXTAREA NAME="foo" ROWS=4 COLS=40&gt;&lt;/TEXTAREA&gt;
+</PRE>
+
+A <CODE>TEXTAREA</CODE> with default contents looks like this: <P>
+
+<PRE>
+        &lt;TEXTAREA NAME="foo" ROWS=4 COLS=40&gt;
+        Default contents go here.
+        &lt;/TEXTAREA&gt;
+</PRE>
+
+The default contents must be straight ASCII text.  Newlines are
+respected (so in the above example there will be a newline both
+before and after "Default contents go here."). <P>
+
+<H2>Form Submission</H2>
+
+<H3>For Method = GET</H3>
+
+When the submit button is pressed, the contents of the form will be
+assembled into a query URL that looks like this: <P>
+
+<PRE>
+    action?name=value&amp;name=value&amp;name=value
+</PRE>
+
+("<CODE>action</CODE>" here is the URL specified by the
+<CODE>ACTION</CODE> attribute to the <CODE>FORM</CODE> tag, or the
+current document URL if no <CODE>ACTION</CODE> attribute was
+specified.) <P>
+
+Strange characters in any of the "name" or "value" instances will be
+escaped as usual; this includes "=" and "&amp;".  <I>Note:</I> This
+means that instances of "=" that separate names and values, and
+instances of "&amp;" that separate name/value pairs, are <I>not</I>
+escaped. <P>
+
+For text and password entry fields, whatever the user typed in will be
+the value; if the user didn't type anything, the value will be empty
+<I>but the "name=" part of the query string will still be present</I>.
+<P>
+
+For checkboxes and radio buttons, the <CODE>VALUE</CODE> attribute
+specifies the value of a checkbox or radio button when it is checked.
+An unchecked checkbox is disregarded completely when assembling the
+query string.  Multiple checkboxes can have the same <CODE>NAME</CODE>
+(and different <CODE>VALUE</CODE>s), if desired.  Multiple radio
+buttons intended to have "one of many" behavior should have the same
+<CODE>NAME</CODE> and different <CODE>VALUE</CODE>s. <P>
+
+<H3>For Method = POST</H3>
+
+The contents of the form are encoded <I>exactly</I> as with the
+<CODE>GET</CODE> method (above), but rather than appending them to the
+URL specified by the form's <CODE>ACTION</CODE> attribute as a query,
+the contents are sent in a data block as part of the <CODE>POST</CODE>
+operation.  The <CODE>ACTION</CODE> attribute (if any) is the URL
+to which the data block is <CODE>POST</CODE>ed. <P>
+
+<H3>Test Servers</H3>
+
+If you wish to write a prototype fill-out form and test it against a
+query server that simply shows you what you submitted (with name/value
+pairs decoded and itemized), you can use the following: <P>
+
+<UL>
+<LI> For <CODE>METHOD="POST"</CODE>, use 
+     <CODE>ACTION="http://hoohoo.ncsa.uiuc.edu/htbin-post/post-query"</CODE>
+<LI> For <CODE>METHOD="GET"</CODE>, use 
+     <CODE>ACTION="http://hoohoo.ncsa.uiuc.edu/htbin/query"</CODE>
+</UL>
+
+The fill-out form examples listed below use these query servers as
+their back ends, so you can see them in action and know what to
+expect with your own forms. <P>
+
+<I>Important note:</I> If you use the <CODE>GET</CODE> method in your
+form, you will notice that the example <CODE>GET</CODE> server will
+choke if too much data (more than a couple hundred bytes) is submitted
+at a time -- the server is passing the data to the form-processing
+module via a shell command line, and the maximum shell command line
+length is being exceeded.  <I>This problem does not exist with the
+<CODE>POST</CODE> method and server.</I> <P>
+
+<H2>Things To Note</H2>
+
+<UL>
+<LI> Some things in the HTML+ spec aren't yet supported.  In
+  particular, <CODE>mailto</CODE> URLs aren't supported as actions
+  yet, and also the Mosaic 2.0 support only includes a subset of the
+  allowable types of input fields (obviously "text" can also serve as
+  "url", "int", "float", and "date" but without intrinsic range/error
+  checking).
+<LI> A "submit" element is necessary in all forms except those
+     containing only a single <CODE>INPUT</CODE> element of type
+     <CODE>TEXT</CODE> (in which case <I>Return</I> in the text entry
+     area submits the form) or at least one <CODE>INPUT</CODE> element
+     of type <CODE>IMAGE</CODE> (in which case a click in the image
+     submits the form).
+<LI> Mosaic has a stealth feature: if a single text field is in a form
+     and the <CODE>NAME</CODE> of the text field is "isindex", then
+     the submitted query will be just like you are used to getting
+     with <CODE>ISINDEX</CODE> -- "url?querystring" (i.e., not
+     "url?isindex=querystring").  This allows you to use simple
+     fill-out forms in your documents to point to existing query
+     servers (<I>including</I> Gopher and WAIS servers!).  This of
+     course assumes that the <CODE>POST</CODE> method is not specified
+     for such forms.
+<LI> There seems to be a bug under IRIX 5.1.0.1 and 5.1.1 (at least)
+     that causes text entry fields in forms to only be half as
+     (physically) big as they should be.  This is <I>not</I> a bug in
+     Mosaic -- the fields are the correct size on all other X servers
+     we have seen, and this general geometry problem afflicts other
+     programs running under IRIX 5.1.0.1/5.1.1 also (e.g. Marc's Epoch
+     windows come up half as big as they should, etc.).  There's
+     nothing we can do until SGI fixes the bug in their X server.
+</UL> 
+
+<H2>ISINDEX Handling</H2>
+
+Now that we have this fancy fill-out form support, we're supporting
+the <CODE>ISINDEX</CODE> tag differently.  Instead of having a
+browser-interface method (dialog box or text field) for entering a
+query, an instance of <CODE>ISINDEX</CODE> is instantiated as a
+preloaded fill-out form suitable for entering a query; <I>the form is
+inlined at the location of the <CODE>ISINDEX</CODE> tag itself</I> in
+the document. <P>
+
+Justifications for change: <P>
+
+<UL>
+<LI> Consistent approach to query mechanisms inside Mosaic.
+<LI> Allow code and interface complexity to be reduced.
+<LI> A few nasty problems were hitting the "popup text entry field"
+     approach attempted for prerelease 2; notably, lots of unavoidable
+     flashing when field popped up and down and intermittent but
+     crippling Motif geometry management problem.  This change removes
+     those problems.
+<LI> Everyone wants the ability to enter a query (and the
+     corresponding widgets) to be present only when the document is
+     actually an <CODE>ISINDEX</CODE> document; this provides that
+     very cleanly.
+<LI> This solves existing problem of when to retain contents of search
+     field -- since search field now exists on a per-document basis,
+     this is very clean.
+<LI> Encourage experimentation with fill-out forms by presenting an
+     example for existing query engines.
+</UL>
+
+<H2>Examples</H2>
+
+Twelve examples are available.  All of the examples now use
+<CODE>METHOD=POST</CODE>. <P>
+
+<UL>
+<LI> <A HREF="example-1.html">Example 1</A> -- a ludicrously simple
+     fill-out form.
+<LI> <A HREF="example-2.html">Example 2</A> -- three text entry fields.
+<LI> <A HREF="example-3.html">Example 3</A> -- text entry fields and
+     checkboxes.
+<LI> <A HREF="example-4.html">Example 4</A> -- changing the default
+     values of text entry fields and checkboxes.
+<LI> <A HREF="example-5.html">Example 5</A> -- changing various
+     attributes of text entry fields.
+<LI> <A HREF="example-6.html">Example 6</A> -- multiple, independent
+     <I>forms</I> in a single document.
+<LI> <A HREF="example-7.html">Example 7</A> -- radio buttons, "one of
+     many" behavior.
+<LI> <A HREF="example-8.html">Example 8</A> -- password entry fields.
+<LI> <A HREF="example-9.html">Example 9</A> -- option menus.
+<LI> <A HREF="example-10.html">Example 10</A> -- scrolled lists with
+     single and multiple selections.
+<LI> <A HREF="example-11.html">Example 11</A> -- multiline text entry areas.
+<LI> <A HREF="example-12.html">Example 12</A> -- image maps in forms.
+</UL>
+
+<H2>Writing Your Own Fill-Out Form Query Engine</H2>
+
+If you want to set up one or more query engines corresponding to
+fill-out forms that you create for database accesses or other
+purposes, you may want to take a look at <A
+HREF="http://hoohoo.ncsa.uiuc.edu/docs/Overview.html">NCSA httpd
+1.0</A>.  One of the example programs included with NCSA httpd is a
+sample fill-out form server (the same server used in the examples
+above, actually) and will provide a good model for writing your own
+servers. <P>
+
+We <I>strongly</I>, <B>strongly</B> recommend use of the
+<CODE>POST</CODE> method with fill-out forms.  One reason: with the
+<CODE>GET</CODE> method, given the way many servers (e.g. NCSA httpd)
+pass query strings from URLs to query server scripts, you run an
+excellent chance of having the forms contents truncated by hardcoded
+shell command argument lengths.  With <CODE>POST</CODE> (again, e.g.,
+with NCSA httpd) you should be able to do a total end run around such
+problems. <P>
+
+NCSA httpd 1.0 (the official release) should be out shortly and will
+contain an example <CODE>POST</CODE> fill-out form server. <P>
+
+<H2>Fill-Out Forms in the Real World</H2>
+
+Here are some fill-out forms in use in the Real World(tm).  For
+up-to-date examples, search on "form" in <A
+HREF="../whats-new.html">What's New</A>. <P>
+
+<UL>
+<LI> <A
+     HREF="http://cea-ftp.cea.berkeley.edu/Registration.html">Registration
+     form</A> at <A HREF="http://cea-ftp.cea.berkeley.edu/">CEA</A>.
+<LI> <A HREF="http://www.cm.cf.ac.uk/Movies/moviequery.html">Cardiff's
+     Movie Database Browser</A>
+<LI> <A
+     HREF="http://web.nexor.co.uk/archieplex-info/archieplexform.html">ArchiePlex
+     forms interface</A>
+<LI> <A HREF="http://south.ncsa.uiuc.edu:8241/Free.html">Free For All</A>
+<LI> A <A HREF="http://rs560.cl.msu.edu/weather/getmegif.html">weather
+     map "order form"</A> is available from <A
+     HREF="http://rs560.cl.msu.edu/">MSU</A>.
+<LI> <a href="http://doccenter.com/doccenter/home.html">Document
+     Center</a> is a hard copy document delivery service specializing
+     in government and industry specifications and standards.
+     Document Center has the complete Department of Defense (DoD)
+     Index of Specifications and Standards collection available, as
+     well as the complete collection of the American Society for
+     Testing Materials (ASTM).  The Center also has additional
+     industry (ANSI, SAE, IPC, IEEE, EIA) and govenment (NASA, DLA,
+     FAA) documentation at its Silicon Valley location.
+<LI> Another <A
+     HREF="http://marvin.physik.uni-oldenburg.de/Docs/net-serv/archie-gate.html">Archie
+     gateway</A> at Oldenburg.
+</UL>
+
+<H2>Comments?</H2>
+
+Please send mail to <B>mosaic-x@ncsa.uiuc.edu</B>. <P>

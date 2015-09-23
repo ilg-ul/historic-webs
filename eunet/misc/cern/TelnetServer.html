@@ -1,0 +1,64 @@
+
+                                A TELNET SERVER
+                                       
+   A public telnet server allows anyone to telnet to you and run a WWW
+   client program to get at data. We run one on info.cern.ch.
+   
+   We assume here you know what you are doing and so here are a few
+   points to remember in outline only.
+     * Beware of secuity holes at all times.
+     * Make a special unpriviliged user
+     * You can set www up as the user's shell.
+     * Run www with the -h option to turn off recursive telnet hopping
+       for secuity. Also turns off shell escape, pipe, file save, etc.
+     * We use a special /bin/login command which obviates the need for a
+       shell, a no-password user, and for username or password prompts.
+       Available on request.
+     * Please mail www-request@info.cern.ch to get your server added to
+       the list of tenet access points to the web. It is useful to have a
+       complete list of these so people can log onto the nearest one when
+       away from home, to cut network usage.
+       
+Skipping the shell
+
+   The special /bin/login program is like login but if the guy has not
+   telnetted in with a command line user name which matches one on the
+   host, he is thrown into www directly without using a shell or
+   collecting $200. This means that if he find some way to crash www, he
+   is bound to exit rather than accidentally get a shell.
+   
+   The login_www program which replaces login passes a -h ip.ip.ip.ip
+   option to www which tells www where the call is coming from (www logs
+   all transactions and also login_www logs the session for safety).
+   
+   This makes the machine difficult to acces for normal purposes
+   especially if rlogin is disabled for security reasons too. Only some
+   machines (Ultrix, NeXT, ...) support telnet -l username which is
+   necessary to get in.
+   
+Changes in browser behaviour
+
+   When www gets the -h option it behaves differently, mainly for
+   secuity. (The HTSecure flag is set within the library).
+     * It disallows any telnet hopping -- you can't use a public www
+       server to "launder" your telnet access for hacking by telnetting
+       on to some other site. (See HTTelnet.c)
+     * It disallows shell spawning, printing, saving files etc etc. . It
+       also requires a full "quit" rather than just "q" to exit.
+       (HTBrowse.c)
+     * It uses a different home page, see below.
+     * It logs all access by default.
+       
+  HOME PAGE
+  
+   When www is used with the -h option, the home page is set by the
+   WWW_HOME environment variable as usual. If you are using the special
+   ligin program, then there is no shell script in which to set this. The
+   browser therefore checks, is WWW_HOME is not set, for a file
+   /etc/www-remote.url. If that file exits, it reads from it the URL of
+   the home page. Note that the home page cannot be a local file, as
+   local file access is turned off for security reasons. It must be a
+   document availableon the network, from your own or someone else's
+   server.
+   
+    Tim BL

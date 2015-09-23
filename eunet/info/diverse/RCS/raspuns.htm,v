@@ -1,0 +1,61 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.20.21.13.12;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.11.05.14.18.45;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@schimbat butonul de submit
+@
+text
+@<TITLE>
+Further EUnet Information
+</TITLE>
+
+<FORM METHOD=POST ACTION="http://www.Romania.EU.net/cgi-bin/form-mail.pl">
+
+Numele dvs:  <INPUT TYPE="text" SIZE=48 MAXLENGTH=40 NAME="nume"><br>
+     Firma:  <INPUT TYPE="text" SIZE=53 MAXLENGTH=30 NAME="firma"><br>
+    Adresa:  <INPUT TYPE="text" SIZE=52 MAXLENGTH=50 NAME="adresa"><br>
+   Telefon:  <INPUT TYPE="text" SIZE=51 MAXLENGTH=20 NAME="telefon"><br>
+       Fax:  <INPUT TYPE="text" SIZE=55 MAXLENGTH=20 NAME="fax"><br>
+Adresa de E-mail Internet: <INPUT TYPE="text" SIZE=33 MAXLENGTH=30 NAME="email" > <p>
+
+<b>Comentariile dumneavoastra</b>:<br>
+<TEXTAREA NAME="comments" ROWS=5 COLS=60></TEXTAREA><br>
+
+Apasati aici pentru a <INPUT TYPE="submit" VALUE="trimite"> comentariul sau  aici pentru a <INPUT TYPE="reset" VALUE="sterge"> raspunsurile.<br>
+
+</FORM>
+
+<ADDRESS>info@@Romania.EU.net</ADDRESS>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d17 1
+a17 1
+Apasati acest <INPUT TYPE="submit" VALUE="buton"> pentru a trimite comentariul sau  aici pentru a <INPUT TYPE="reset" VALUE="sterge"> raspunsurile.<br>
+@

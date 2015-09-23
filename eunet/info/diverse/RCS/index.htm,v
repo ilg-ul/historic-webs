@@ -1,0 +1,101 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.12.01.21.22.24;  author ilg;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.29.13.41.27;  author vsv;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.20.21.13.50;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.11.05.14.18.41;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@mutat contact.htm in eunetro/
+@
+text
+@<TITLE>Diverse</TITLE>
+
+<H2>De la lume adunate si-napoi la lume date</H2>
+
+<UL>
+<LI>Cine are nevoie de Internet?
+<LI>Ce solutii de conectare va putem oferi.
+<LI>Diferente Internet (TCP/IP) / X.25.
+<LI>Diferente EUnetMail / X.400-Mail.
+<LI><A HREF="gratis.htm">EuropaNet AUP</A>.
+<LI>Diferite <A HREF="internet.htm">statistici despre Internet</A>.
+<LI>Cum puteti accesa <A HREF="compuser.htm">Compuserve din Internet</A>.
+<P>
+<LI><A HREF="http://caesar/info/diverse/rfc">Request for Comments</A>
+<LI><A HREF="news_eunet.htm">Newsgroups accesibile la news.eu.net</A>
+</UL>
+<h3>Carti on-line</H3>
+<UL>
+<LI><A HREF="../../alice/alice.html">Alice's Adventures in Wonderland / 
+Through the Looking-Glass</A> 
+(autor: Lewis Carroll, varianta originala, in limba engleza, cu ilustratii)
+</UL>
+<HR>
+<ADDRESS>actualizat: 1 Decembrie 1994 de ilg@@Romania.EU.net </ADDRESS>
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a15 1
+<LI>Pentru probleme sau informatii ne puteti <A HREF="contact.htm">contacta prin</A>:
+d24 1
+a24 1
+<ADDRESS>actualizat: 20 Noimbrie 1994 de ilg@@Romania.EU.net </ADDRESS>
+@
+
+
+1.2
+log
+@adaugat alice
+@
+text
+@d14 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d16 6
+a21 1
+
+d23 1
+a23 1
+<ADDRESS>actualizat: 24 August 1994 de vsv@@Romania.EU.net </ADDRESS>
+@

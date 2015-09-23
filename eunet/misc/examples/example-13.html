@@ -1,0 +1,30 @@
+<TITLE>Fill-Out Form Example w/ Hidden Elements (#13)</TITLE>
+<H1>Fill-Out Form Example w/ Hidden Elements (#13)</H1>
+
+This is a very simple fill-out form example. <P>
+
+<FORM METHOD="POST" ACTION="http://hoohoo.ncsa.uiuc.edu/htbin-post/post-query">
+
+A single text entry field goes here: <INPUT NAME="entry"> <P>
+
+There are two "hidden" form elements which are not displayed 
+located here:
+
+<INPUT TYPE="hidden" NAME="hidden element#1" VALUE="blah">
+<INPUT TYPE="hidden" NAME="hidden element#2" VALUE="foobar">
+<p>
+
+These are created via TYPE="hidden" and can contain arbitrary NAME/VALUE pairs.
+These can easily be used to maintain a form of "state" in multiple
+connections with a server. <p>
+
+To submit the query (including hidden data), press this button: <INPUT TYPE="submit" VALUE="Submit Query">. <P>
+
+Things you may want to note: <P>
+
+<UL>
+<li>The hidden elements are not displayed but are not "secret".  They can 
+	easily be found via the "View Source" option.  
+</UL>
+
+<A HREF="example-12.html">Back to example 12</A>. <P>

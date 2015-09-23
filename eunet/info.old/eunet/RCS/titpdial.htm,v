@@ -1,0 +1,41 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.29.05;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Tarife pentru serviciul InterEUnet Personal Dialup-IP</TITLE>
+<H1>Tarife pentru serviciul InterEUnet Personal Dialup-IP</H1>
+<H2>Costurile dvs. pentru servicul <A HREF="itpers.htm">InterEUnet Personal Dialup-IP</A>:</H2>
+<UL>
+<LI>Taxa de <A HREF="inreg.htm">inregistrare</A>: $???
+<LI>Abonament lunar: $???
+<LI>Traficul, trimis si receptionat, functie de distanta:
+<UL>
+<LI>Intern: $???/MByte
+<LI>International: $???/MByte
+</UL>Primii ???MB interni sint inclusi in costul abonamentului lunar.
+</UL>
+<HR>
+<ADDRESS>(Preturile se vor stabili cit de curind, imediat dupa terminarea instalarii si testarii liniei inchiriate prin care se va obtine acces TCP/IP international)</ADDRESS>
+
+
+@

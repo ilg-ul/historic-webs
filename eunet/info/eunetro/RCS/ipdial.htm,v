@@ -1,0 +1,136 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.16.17.54;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.21.27;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.19.00.17;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.44.07;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Descrierea serviciului DialEUnet</TITLE>
+<H1>DialEUnet</H1>
+<H2>Descriere generala:</H2>
+Este serviciul care va ofera, cu cele mai mici costuri, acces 
+Internet pentru intreaga dumneavoastra organizatie. Legatura se 
+face automat, dinspre client catre EUnet, in momentul in care se 
+detecteaza o cerere de acces in afara retelei locale. Din momentul 
+in care s-a realizat legatura fiecare calculator din organizatie 
+dumneavoastra devine nod Internet beneficiind de toate avantajele 
+acestei conectari.
+<H2>Cerinte tehnice:</H2>
+<UL>
+<LI>Router IP sau calculator care are implementat protocolul SLIP.
+<LI>Linie telefonica obisnuita si modemuri asincrone V32.bis/V42.bis
+(max.14400+compresii) sau legatura pe X.25.
+<LI>In cazul conexiunii pe X.25, daca optiunea de taxa-inversa este 
+disponibila, initierea conexiunii se poate face si dinspre EUnet catre 
+client, obtinindu-se toate avantajele conexiunii permanente 
+(<A HREF="ip.htm">InterEUnet</A>).
+</UL>
+<H2>Servicii oferite: </H2>
+<UL>
+<LI>Conectivitate IP cu intreaga lume; routarea pachetelor se face 
+preferential prin infrastructura EUnet;legaturile internationale se 
+fac prin CIX (Commercial Internet Exchange), deci nu se aplica 
+restrictii gen "NSFnet Acceptable Use Policy".
+<LI>Posibilitatea de a conecta oricite calculatoare in retea, prin 
+ inregistrarea unei clase de adrese, nu a unei adrese singulare.
+<LI>Domain Name Server pentru domeniul dumneavoastra.
+<LI>Acces la toate serviciile on-line (telnet, ftp, WWW, gopher, 
+News, Archive, etc.) la cel mai bun pret posibil, taxarea facindu-se 
+numai la volum, nediferentiat pe servicii sau distanta.
+<LI>Asistenta tehnica la instalare si router management.</UL>
+Mai consultati <A HREF="tipdial.htm">Tarife</A> si procedura de 
+<A HREF="inreg.htm">inregistrare</A>.
+<HR>
+<ADDRESS>actualizat: 24 August 1994 de vsv@@Romania.EU.net</ADDRESS>
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 2
+<TITLE>Descrierea serviciului InterEUnet Dialup-IP</TITLE>
+<H1>InterEUnet Dialup-IP</H1>
+d4 7
+a10 1
+Este serviciul care va ofera, cu cele mai mici costuri, acces Internet pentru intreaga dumneavoastra organizatie. Legatura se face automat, dinspre client catre EUnet, in momentul in care se detecteaza o cerere de acces in afara retelei locale. Din momentul in care s-a realizat legatura fiecare calculator din organizatie dumneavoastra devine nod Internet beneficiind de toate avantajele acestei conectari.
+d16 4
+a19 3
+<LI>In cazul conexiunii pe X.25, daca optiunea de taxa-inversa este disponibila,
+ initierea conexiunii se poate face si dinspre EUnet catre client, obtinindu-se
+toate avantajele conexiunii permanente (<A HREF="ip.htm">InterEUnet IP</A>).
+d23 4
+a26 1
+<LI>Conectivitate IP cu intreaga lume;routarea pachetelor se face preferential prin infrastructura EUnet;legaturile internationale se fac prin CIX (Commercial Internet Exchange), deci nu se aplica restrictii gen "NSFnet Acceptable Use Policy".
+d30 3
+a32 1
+<LI>Acces la toate serviciile EUnet (Mail, News, Archive, etc.) la cel mai bun pret posibil, taxarea facindu-se numai la volum, nediferentiat pe servicii sau distanta.
+d34 2
+a35 1
+Mai consultati <A HREF="tipdial.htm">Tarife</A> si procedura de <A HREF="inreg.htm">inregistrare</A>.
+a37 4
+
+
+
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d10 3
+a12 1
+<LI>In cazul conexiunii pe X.25, daca optiunea de taxa-inversa este disponibila, initierea conexiunii se poate face si dinspre EUnet catre client, obtinindu-se toate avantajele conexiunii permanente (<A HREF="it.htm">InterEUnet IP</A>).
+d17 2
+a18 1
+<LI>Posibilitatea de a conecta oricite calculatoare in retea, prin inregistrarea unei clase de adrese, nu a unei adrese singulare.
+d22 1
+a22 1
+Mai consultati <A HREF="titdial.htm">Tarife</A> si procedura de <A HREF="inreg.htm">inregistrare</A>.
+@

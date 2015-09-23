@@ -1,0 +1,85 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ilg:1.1;
+comment  @@;
+
+
+1.1
+date     94.11.20.19.24.51;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<TITLE>Alice's Adventures in Wonderland</TITLE>
+</HEAD>
+
+<BODY>
+<H1><IMG ALIGN=TOP SRC="images/cat.gif" ALT="[PICTURE]">  Alice's Adventures in Wonderland</H1>
+<IMG SRC="rsc/hr.gif" ALT="--">
+<P>
+This HTML document was produced from the second Texinfo edition
+of a well-known book entitled <B>Alice's Adventures in Wonderland</B> 
+written by <I>Lewis Carroll</I>, alias <I>Charles Lutwidge Dodgson</I>.
+<P>
+The original was first published in Great Britain in 1865.
+Alo contained herein, you'll find the sequel
+<B>Through the Looking Glass and what Alice found there</B>,
+that was first published in Great Britain in 1872.
+<P>
+Both of these original editions owe much to the illustrations by
+<I>Sir John Tenniels</I>.
+All of these 42 + 50 images are included in this edition of this
+online version.
+<P>
+Well, you should not really read the book here, you should download the 
+compressed version from an archive and feed it into your local system. 
+The default server of this project is
+<VAR><A HREF="ftp://ftp.Germany.EU.net/pub/books/carroll">
+ftp.Germany.EU.net</A></VAR>, the directory is 
+<VAR>pub/books/carroll</VAR>.
+
+There you find the PostScript, TeX DVI, GNU Info, HTML and ASCII versions;
+plus the complete Texinfo sources of this document (edn 2.0).
+
+<P>
+<IMG SRC="rsc/hr.gif" ALT="--">
+<P>
+<H3>So here are the document parts:</H3>
+<UL>
+<LI><A HREF="README">Notes concerning the distribution of Alice:</A>
+This is actually the README file contained in the Texinfo distribution</LI>
+<LI><A HREF="alice_toc.html">Table of contents:</A>
+The 2 volumes in 1.</LI>
+<LI><A HREF="alice_1.html">Alice's Adventures in Wonderland:</A>
+The 2 volumes in 1 document itself.</LI>
+<LI><A HREF="alice_17.html">Through the Looking-glass:</A>
+The 2nd part of the document.</LI>
+<LI><A HREF="images/jabber.gif">A colorized Jabberwockey.</A>
+</LI>
+</UL>
+
+<P>
+<IMG SRC="rsc/hr.gif" ALT="--">
+<P>
+<H4>
+Copyright (c) 1994 The WindSpiel Company. All rights reserved.
+<A HREF="http://www.Germany.EU.net/people/joke.html"><IMG ALIGN=MIDDLE SRC="images/signet.gif" ALT="[-joke]"></A>
+</H4>
+
+</BODY>
+</HTML>
+@

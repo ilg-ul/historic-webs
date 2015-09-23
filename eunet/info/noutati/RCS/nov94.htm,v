@@ -1,0 +1,55 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.12.01.21.29.33;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Noutati de ieri... si de azi...</TITLE>
+
+<H2>20 Nov 1994</H2>
+!!! Ca o surpriza, si pentru a demonstra facilitatile oferite de serverul 
+de WWW, va puteti delecta citind in original textul cartii 
+<A HREF="../../alice/alice.html">Alice in Tara Minunilor</A>, de Lewis Caroll.
+
+<H2>16 Nov 1994</H2>
+Nou client in Cluj: firma <A HREF="../abonati/vestco.htm">Vest Conex SA</A>.<p>
+
+<H2>15 Nov 1994</H2>
+Simplificarea procedurii de acces la serverul de info (dupa
+Username: info nu mai este nevoie de introducerea numelui la login)<P>
+
+<H2>11 Nov 1994</H2>
+Nou client in Cluj: <A HREF="../abonati/btrans.htm">Bursa Transilvana</A>.<p>
+
+<H2>3-5 Nov 1994</H2>
+Participare la ROSE'94.
+Organizarea remarcabila a celor de la GURU, impreuna cu prezenta unor nume
+mari in lumea UNIX-ului, cum ar fi Richard Stallman, au facut din ROSE'94
+cel mai important eveniment computeristic al anului. <P>
+Firma EUnet, in calitate de 
+sponsor, a fost prezenta impreuna cu firma KT Technology
+cu un stand de comunicatii E-mail, demonstrind legatura la Internet 
+la nivel de E-mail si SLIP pe toata durata manifestarii.  <P>
+
+<H2>1 Nov 1994</H2>
+Nou client in Baia-Mare: firma <A HREF="../abonati/multinet.htm">Multinet SRL</A>.<p>
+
+@

@@ -1,0 +1,177 @@
+<HEAD>
+<TITLE>Logging in cern_httpd</TITLE>
+</HEAD>
+<BODY><ADDRESS>Ari Luotonen, CERN, 1994</ADDRESS>
+<H1><IMG SRC="../ServerLogo.gif">
+Logging Control In <A HREF="../Guide.html">CERN httpd</A></H1>
+
+<CODE>cern_httpd</CODE> logs all the incoming requests to an access
+log file.  It also has an error log where internal server errors are
+logged.
+<UL>
+<LI> <A HREF="#AccessLog"><CODE>AccessLog</CODE></A>
+	- Set access log file name
+<LI> <A HREF="#ProxyAccessLog"><CODE>ProxyAccessLog</CODE></A>
+	- Log proxy accesses to a different log file
+<LI> <A HREF="#CacheAccessLog"><CODE>CacheAccessLog</CODE></A>
+	- Log cache accesses to a different log file
+<LI> <A HREF="#ErrorLog"><CODE>ErrorLog</CODE></A>
+	- Set error log file name
+<LI> <A HREF="#LogFormat"><CODE>LogFormat</CODE></A>
+	- Set access log file format
+<LI> <A HREF="#common-logfile-format">Common logfile format</A>
+	supported by all the main HTTP servers
+<LI> <A HREF="#LogTime"><CODE>LogTime</CODE></A>
+	- Set time zone for log files
+<LI> <A HREF="#NoLog"><CODE>NoLog</CODE></A>
+	- No log entries for listed hosts/domains
+</UL>
+
+
+<HR>
+<H2><A NAME="AccessLog">Access Log File</A></H2>
+
+Access log file contains a log of all the requests.  The name of the
+log file is spesified either by <CODE>-l </CODE><I>logfile</I> command
+line option, or with <CODE>AccessLog</CODE> directive; log file can be
+either an absolute path:
+<PRE>
+        AccessLog <I>/absolute/path/logfile</I>
+</PRE>
+or relative to
+<A HREF="Genera.html#ServerRoot"><CODE>ServerRoot</CODE></A>:
+<PRE>
+        AccessLog <I>logs/logfile</I>
+</PRE>
+
+
+<HR>
+<H2><A NAME="ProxyAccessLog">Proxy Access Log File</A></H2>
+
+If you are running <CODE>httpd</CODE> as a proxy server and you want
+to have a separate log of proxy transactions and normal HTTP server
+transactions, specify the proxy log file via
+<CODE>ProxyAccessLog</CODE> directive:
+<PRE>
+        ProxyAccessLog  <I>logfile</I>
+</PRE>
+<I>logfile</I> can be either an absolute pathname, or relative to
+<A HREF="General.html#ServerRoot"><CODE>ServerRoot</CODE></A>. <P>
+
+If <CODE>ProxyAccessLog</CODE> is not set all accesses will be logged
+to the normal <A HREF="#AccessLog"><CODE>AccessLog</CODE></A> instead. <P>
+
+
+<HR>
+<H2><A NAME="CacheAccessLog">CacheAccessLog</A></H2>
+
+Cache accesses can be logged to a different log file instead of the
+normal <A HREF="Logging.html#AccessLog">access log</A>.  The
+<CODE>CacheAccessLog</CODE> directive takes an absolute pathname of
+the cache access log file:
+<PRE>
+        CacheAccessLog  <I>logfile</I>
+</PRE>
+<I>logfile</I> can be either an absolute pathname, or relative to
+<A HREF="General.html#ServerRoot"><CODE>ServerRoot</CODE></A>. <P>
+
+
+<HR>
+<H2><A NAME="ErrorLog">Error Log File</A></H2>
+
+Error log contains a log of errors that might prove useful when
+figuring out if something doesn't work.  Error log file name is set by
+<CODE>ErrorLog</CODE> directive:
+<PRE>
+        ErrorLog <I>/absolute/path/errorlog</I>
+</PRE>
+If error log file is not specified, it defaults to access log file
+name with <CODE>.error</CODE> extension. If the filename extension
+already exists, <CODE>.error</CODE> will replace it. <P>
+
+
+<HR>
+<H2><A NAME="LogFormat">Log File Format</A></H2>
+
+Previously every server used to have its own logfile format which made
+it difficult to write general statistics collectors.  Therefore there
+is now a <EM>common logfile format</EM> (which will eventually become
+the default).  Currently it is enabled by
+<PRE>
+        LogFormat  Common
+</PRE>
+The old CERN <CODE>httpd</CODE> format can be used by
+<PRE>
+        LogFormat  Old
+</PRE>
+
+
+<HR>
+<H2><A NAME="common-logfile-format">The Common Logfile Format</A></H2>
+
+The common logfile format is as follows:
+<PRE>
+    <I>remotehost rfc931 authuser [date] "request" status bytes</I>
+</PRE>
+<DL>
+<DT><I>remotehost</I><DD>
+	Remote hostname (or IP number if DNS hostname is not
+	available, or if
+	<A HREF="General.html#DNSLookup">DNSLookup</A> is Off.
+
+<DT><I>rfc931</I><DD>
+	The remote logname of the user.
+
+<DT><I>authuser</I><DD>
+	The username as which the user has authenticated himself.
+
+<DT><CODE>[</CODE><I>date</I><CODE>]</CODE><DD>
+	Date and time of the request.
+
+<DT><CODE>"</CODE><I>request</I><CODE>"</CODE><DD>
+	The request line exactly as it came from the client.
+
+<DT><I>status</I><DD>
+	The <A HREF="/hypertext/WWW/Protocols/HTTP/HTRESP.html">HTTP
+	status code</A> returned to the client.
+
+<DT><I>bytes</I><DD>
+	The content-length of the document transferred.
+</DL>
+
+
+<HR>
+<H2><A NAME="LogTime">Log Time Format</A></H2>
+
+Times in the log file are by default local time.  That can be changed
+to be GMT time by <CODE>LogTime</CODE> directive:
+<PRE>
+        LogTime  GMT
+</PRE>
+Default is:
+<PRE>
+        LogTime  LocalTime
+</PRE>
+
+
+<HR>
+<H2><A NAME="NoLog">Suppressing Log Entries For Certain Hosts/Domains</A></H2>
+
+It's not always necessary to collect log information of accesses made
+by local hosts.  The <CODE>NoLog</CODE> directive can be used to
+prevent log entry being made for hosts matching a given IP number or
+host name template:
+<PRE>
+        NoLog  <I>template</I>
+</PRE>
+<H3>Examples</H3>
+<PRE>
+        NoLog 128.141.*.*
+        NoLog *.cern.ch
+        NoLog *.ch  *.fr  *.it
+</PRE>
+
+
+<HR>
+<ADDRESS>httpd@info.cern.ch</ADDRESS>
+</BODY>

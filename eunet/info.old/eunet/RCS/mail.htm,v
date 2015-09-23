@@ -1,0 +1,47 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.28.58;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Descrierea serviciului EUnetMail</TITLE>
+<H1>EUnet Mail</H1>
+<H2>Descriere generala</H2>
+Prin intermediul acestui serviciu puteti intra in contact direct cu partenerii dumneavoastra din intreaga lume. Inserind in mesaje nu numai simple texte, ci si documente, spreadsheets, etc. puteti economisi timp pretios in favoarea dezvoltarii firmei dvs. 
+<H2>Cerinte tehnice:</H2>
+<UL>
+<LI>Calculator ce are implementat protocolul UUCP (UNIX, DOS, Windows,
+Macintosh, ... )
+<LI>Modem conectat la o linie telefonica obisnuita. Pentru a minimiza costurile, suportam conexiuni de mare viteza, V.32bis/V42.bis.
+</UL>
+<H2>Servicii oferite:</H2>
+<UL>
+<LI>Conectivitate e-mail (Internet-style, RFC 822), prin EUnet, cu intreaga lume.
+<LI>Adresa unica in subdomeniul '.ro' pentru intreaga dvs.organizatie, inregistrata in Domain Name Server, deci vizibila din intreaga lume.
+<LI>Posibilitatea de a inregistra local oricite nume de utilizatori, cu adrese diferite in cadrul domeniului organizatiei, fara costuri suplimentare.
+<LI>La cerere, putem furniza ultimele versiuni ale programelor de comunicatie
+disponibile ca free software. (Taylor UUCP, sendmail, elm, pine, etc).
+<LI>Asistenta tehnica la instalare, telefonic sau la sediul clientului.
+</UL>
+Mai consultati <A HREF="tmail.htm">Tarife</A> si procedura de <A HREF="inreg.htm">inregistrare</A>.
+<HR>
+<ADDRESS>actualizat:24 August 1994 de vsv@@Romania.EU.net</ADDRESS>
+@

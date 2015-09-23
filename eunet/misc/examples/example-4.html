@@ -1,0 +1,60 @@
+<TITLE>Fill-Out Form Example #4</TITLE>
+<H1>Fill-Out Form Example #4</H1>
+
+This is another fill-out form example, with default values for some
+text entry fields and checkboxes. <P>
+
+<HR>
+
+<FORM METHOD="POST" ACTION="http://hoohoo.ncsa.uiuc.edu/htbin-post/post-query">
+
+The first text entry field, with default value "foo", goes here:
+<INPUT NAME="entry1" VALUE="foo"> <P>
+
+The second text entry field, with no default value, goes here: <INPUT
+NAME="entry2"> <P>
+
+Now, here's three checkboxes right in a row: <P>
+
+<OL>
+<LI> <INPUT TYPE="checkbox" NAME="box1" VALUE="activated" CHECKED> The first
+     checkbox, on by default.
+<LI> <INPUT TYPE="checkbox" NAME="box2" VALUE="primed"> The second
+     checkbox, off by default.
+<LI> <INPUT TYPE="checkbox" NAME="box3" CHECKED> The third
+     checkbox, on by default.
+</OL>
+
+To submit the query, press this button: <INPUT TYPE="submit"
+VALUE="Submit Query">.   <P>
+
+To reset the various form elements to their default states, press this
+button: <INPUT TYPE="reset" VALUE="Reset To Default Values">. <P>
+
+</FORM>
+
+<HR> <P>
+
+Things you may want to note: <P>
+
+<UL>
+<LI> A <CODE>VALUE</CODE> attribute to an <CODE>INPUT</CODE> tag of
+     <CODE>TYPE</CODE> "text" specifies the default value of that text
+     field.
+<LI> A <CODE>VALUE</CODE> attribute to an <CODE>INPUT</CODE> tag of
+     <CODE>TYPE</CODE> "checkbox" specifies the value that checkbox
+     takes when it's on.  If this attribute is not present, the
+     default is "on".
+<LI> A <CODE>CHECKED</CODE> attribute to a checkbox specifies that the
+     checkbox is on by default.
+<LI> Similar to how an <CODE>INPUT</CODE> tag of <CODE>TYPE</CODE>
+     "submit" is a special query submission button, an
+     <CODE>INPUT</CODE> tag of <CODE>TYPE</CODE> "reset" is a special
+     form reset button.  (If all of the input elements have no default
+     values, this may be better termed a "clear" button; the label on
+     the pushbutton included in the form is controlled by the
+     <CODE>VALUE</CODE> attribute to that <CODE>INPUT</CODE> tag.)
+</UL>
+
+<A HREF="example-3.html">Back to example 3</A> or <A
+HREF="example-5.html">forward to example 5</A>. <P>

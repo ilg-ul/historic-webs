@@ -1,0 +1,69 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.14.48.46;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.29.53;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.01.21.42.48;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.45.31;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>uucp</TITLE>
+<H1>uucp</H1>
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 2
+<TITLE>uucp</TITLE>
+<H1>uucp</H1>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

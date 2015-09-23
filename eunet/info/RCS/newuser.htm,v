@@ -1,0 +1,96 @@
+head     1.3;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.3
+date     94.11.05.14.16.47;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.10.31.18.59.50;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.31.19;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@<TITLE>Cum puteti naviga prin hypertext</TITLE>
+
+Informatiile din acest server sint organizate
+folosind cele mai moderne tehnologii, adica in format de 
+hypertext (portiuni de text unite intre ele prin legaturi, 
+afisate subliniat).
+Pentru a naviga
+intre ele (initial sinteti pozitionat pe prima legatura din pagina), 
+puteti folosi cele patru sageti.
+
+Daca emulatorul dumneavoastra de terminal nu este configurat sa genereze
+codurile corespunzatoare sagetilor, puteti folosi tastele corespunzatoare
+de pe keypad: 
+<UL>
+<LI>sageata dreapta, sau cifra 6, (deschide legatura), 
+<LI>sageata stinga, sau cifra 4 (revenire din legatura), 
+<LI>sageata sus, sau cifra 8 (legatura urmatoare)
+<LI>sageata jos, sau cifra 2 (legatura anterioara).  
+</UL>
+
+Atentie! In cazul in care folositi aplicatia Terminal din Windows si vreti 
+sa folositi sagetile pentru a naviga prin acest program <B>NU</B> setati in 
+meniul "Settings"->"Terminal Preferences" optiunea 
+"Use Function, Arrow and Ctrl Keys for Windows".<P>
+
+Acum, pentru a reveni la prima pagina puteti apasa din nou 
+<A HREF="index.htm"> Enter</A>, sau sageata stinga.<P>
+
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 3
+<H2>Cum se foloseste acest program</H2>
+
+Informatiile din acest server de informatii sint organizate
+d5 2
+a6 3
+hypertext (portiuni de text unite intre ele prin legaturi). 
+In fiecare pagina pot fi una sau mai multe legaturi, afisate diferit 
+fata de restul textului (mai luminate sau video-invers). 
+d22 1
+a22 1
+sa folositi sagetile pentru a naviga prin acest program <B>nu</B> setati in 
+d26 2
+a27 2
+Acum, pentru a reveni la prima pagina puteti apasa din nou <A HREF="default.html">
+Enter</A>, sau sageata stinga.<P>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

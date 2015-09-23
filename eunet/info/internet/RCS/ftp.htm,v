@@ -1,0 +1,76 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.14.48.38;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.29.45;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.01.21.42.38;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.45.19;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>ftp</TITLE>
+<H1>ftp</H1>
+Numele de <b>ftp</b> vine de la protocolul pe care il foloseste aplicatia: 
+<i>File Transfer Protocol</i>.  Acest program este folosit pentru transferul 
+de fisiere intre masini conectate intr-o retea bazata pe protocolul
+<a href="tcpip.htm">TCP/IP</a>.  Acest protocol este implementat pe toate masinile
+care pot folosi TCP/IP-ul, de la marile mainframe-uri IBM pina la PC-uri, fiind suportat
+de aproape toti producatorii de sisteme de operare.  El permite transferul fisierelor in
+format binar sau text.
+ @
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 9
+a9 2
+<TITLE>ftp</TITLE>
+<H1>ftp</H1>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

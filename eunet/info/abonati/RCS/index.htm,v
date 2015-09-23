@@ -1,0 +1,109 @@
+head     1.3;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.3
+date     94.11.16.15.13.04;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.05.14.17.30;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.33.11;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.3
+log
+@vestco added
+@
+text
+@<TITLE>Abonati EUnet (profil personal)</TITLE>
+<H1>Abonati EUnet (profil personal)</H1>
+<UL>
+<LI><A HREF="adcon.htm">ADCON Telemetry SRL</A>
+<LI><A HREF="bmmc.htm">Bursa Maritima si de Marfuri (Constanta)</A>
+<LI><A HREF="btrans.htm">Bursa Transilvana (Cluj-Napoca)</A>
+<LI><A HREF="datasyst.htm">Datasyst Computer SA</A>
+<LI><A HREF="elma.htm">I.C. Masini Electrice</A>
+<LI><A HREF="estico.htm">Estico SRL (Xerox dealer, Brasov)</A>
+<LI><A HREF="fsc.htm">Fundatia pentru Strategii de Comunicare</A>
+<LI><A HREF="guru.htm">GURU - Grupul utilizatorilor Romani de UNIX</A>
+<LI><A HREF="iiruc.htm">IIRUC - SA</A>
+<LI><A HREF="centind.htm">The Independent Journalism Foundation </A>
+<LI><A HREF="ingr.htm">Intergraph Reprezentanta Romania </A>
+<LI><A HREF="ifes.htm">International Foundation for Electoral Systems </A>
+<LI><A HREF="icom.htm">Intracom S.A. Reprezentanta Romania </A>
+<LI><A HREF="ktt.htm">KT Technology SRL</A>
+<LI><A HREF="multinet.htm">Multinet SRL (Baia Mare)</A>
+<LI><A HREF="pcreport.htm">PC Report (Hot Soft, Tg. Mures)</A>
+<LI><A HREF="pci.htm">Project Concern International</A>
+<LI><A HREF="rds.htm">Romanian Data Soft SRL</A>
+<LI><A HREF="romdatex.htm">ROMDATEX SRL (Oracle dealer)</A>
+<LI><A HREF="scop.htm">SCOP SRL</A>
+<LI><A HREF="sinter.htm">SINTER-REF SA (Azuga)</A>
+<LI><A HREF="soros.htm">Fundatia SOROS pentru o societate deschisa</A>
+<LI><A HREF="telemach.htm">Telemach SRL (Baia Mare)</A>
+<LI><A HREF="univoc.htm">Univoc SRL (Timisoara)</A>
+<LI><A HREF="vestco.htm">Vest Conex SA (Cluj-Napoca)</A>
+<LI><A HREF="vibro.htm">Vibromatic OY Reprezentanta Romania</A>
+<LI><A HREF="who.htm">World Health Organization</A>
+</UL>
+
+
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d6 1
+d28 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 2
+a2 2
+<TITLE>Abonati EUnet, profil personal</TITLE>
+<H1>Abonati EUnet, profil personal</H1>
+d4 25
+a28 18
+<LI><A HREF="clienti/adcon.htm">ADCON Telemetry SRL</A>
+<LI><A HREF="clienti/bmmc.txt">Bursa Maritima si de Marfuri (Constanta)</A>
+<LI><A HREF="clienti/datasyst.htm">Datasyst Microcomputer SRL</A>
+<LI><A HREF="clienti/elma.htm">I.C. Masini Electrice</A>
+<LI><A HREF="clienti/estico.htm">Estico SRL (Xerox dealer, Brasov)</A>
+<LI><A HREF="clienti/guru.htm">GURU - Grupul utilizatorilor Romani de UNIX</A>
+<LI><A HREF="clienti/iiruc.htm">IIRUC - SA</A>
+<LI><A HREF="clienti/ktt.txt">KT Technology SRL</A>
+<LI><A HREF="clienti/okcontac.txt">Fundatia pentru Strategii de Comunicare</A>
+<LI><A HREF="clienti/pcreport.txt">PC Report (Hot Soft, Tg. Mures)</A>
+<LI><A HREF="clienti/rds.htm">Romanian Data Soft SRL</A>
+<LI><A HREF="clienti/romdatex.htm">ROMDATEX SRL (Oracle dealer)</A>
+<LI><A HREF="clienti/romlotus.htm">ROMLOTUS SRL (Galati)</A>
+<LI><A HREF="clienti/scop.htm">SCOP SRL</A>
+<LI><A HREF="clienti/sinter.htm">SINTER-REF SA (Azuga)</A>
+<LI><A HREF="clienti/soros.htm">Fundatia SOROS pentru o societate deschisa</A>
+<LI><A HREF="clienti/telemach.htm">Telemach SRL (Baia Mare)</A>
+<LI><A HREF="clienti/who.htm">World Health Organization</A>
+@

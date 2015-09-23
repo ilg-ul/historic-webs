@@ -1,0 +1,120 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.10.22.13.42.28;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<plaintext>***************************************************************************
+                  BURSA  MARITIMA  SI  DE  MARFURI  CONSTANTA
+***************************************************************************
+
+        Continuatoare a Bursei de Comert ce a functionat in Constanta intre
+anii 1911 - 1941, BMMC s-a infiintat in decembrie 1993 din initiativa unui 
+grup de societati cu capital majoritar privat.
+        Situata in imediata apropiere a portului Constanta si a Zonei Libere 
+Agigea, dispunind de un insemnat potential economic datorat puternicilor sai 
+actionari, bursa constanteana actioneaza prin agentiile bursiere in toate
+zonele importante din punct de vedere economic ale Romaniei.
+        Avind un capital de peste 1,2 miliarde lei, in cadrul BMMC se
+contureaza, potrivit optiunilor actionarilor sai - in numar de 161 -, 
+specializarea pentru pietele maritima, agricola, a lemnului si a metalelor.
+        Piata marfurilor generale functioneaza firesc avind in vedere
+apropierea de portul Constanta, Zona libera Agigea si Canalul Dunare 
+Marea Neagra, principalele cai de transport pentru Romania, dar si  pentru 
+tarile din centrul si sud estul Europei.
+        Amploarea turismului pe litoralul romanesc al Marii Negre determina 
+dezvoltarea unei burse a serviciilor turistice. 
+        Alaturi de contractele SPOT, nevoile clientilor au impus la scurt
+timp de la infiintarea Bursei Maritime si de Marfuri Constanta, derularea 
+CONTRACTELOR LA TERMEN - premiera absoluta pentru Romania -, folosite 
+indeosebi pentru tranzactiile cu cereale.
+        O prioritate importanta sunt investitiile imobiliare, absolut necesare 
+dezvoltarii viitoare a BMMC.
+        Infiintarea Bursei de Valori in Romania a determinat creerea de
+catre BMMC a unei societati de valori mobiliare.
+        Casa de clearing, care va functiona pe linga BMMC este o alta
+preocupare majora a bursei constantene.
+        Contactele cu instituti similare din Marea Britanie, Olanda, Germania, 
+Italia, Australia, Bulgaria, Republica Moldova, Turcia, Rusia, Danemarca, 
+Grecia, Israel, Cipru, Statele Unite, Franta, Republica Sud Africana legaturile 
+cu Baltic Exchange reprezinta deschiderea BMMC spre lumea afacerilor 
+internationale.
+
+        SISTEMUL INFORMATIC
+
+        Sistemul informatic se dezvolta in paralel cu definirea si dezvoltarea 
+activitatilor bursiere. El este dedicat , pe de o parte, rezolvarii problemelor 
+cu specific bursier si , pe de alta parte, rezolvarii problemelor de uz intern. 
+Prin intermediul sau se realizeaza cuplarea, in vederea furnizarii de
+informatii rapide si corecte, atit cu membrii bursei, cit si cu alti clienti 
+interesati in date de acest tip, in mod "user-friendly". Arhitectura care sta 
+la baza constructiei sistemului este de "open system", asigurindu-se in acest 
+fel modularitatea, portabilitatea si scalabilitatea in exploatare si dezvoltare.
+        Reteaua de computere existenta, de tip NOVELL, este compusa din 16 
+statii de lucru de tip IBM-PC (Intel 286, 386), conectate la un file-server 
+tip IBM-PC (Intel 486), la care se vor conecta o statie UNIX de tip PENTIUM 
+si statia dedicata tehnoredactarii, de tip Macintosh Quadra 650. In aceasta 
+retea vor fi folosite sistemele de operare MS-DOS, WINDOWS, Macintosh System 7 
+si UNIX, iar ca sisteme de gestiune a bazelor de date FoxPro, INFORMIX si EXCEL.
+        Pentru rezolvarea problemelor cu specific bursier se achizitioneaza, se 
+prelucreaza si se transmit preoferte de la si catre clientii bursei, in
+regim de teleprelucrare, prin fax/modem sau telex. Aceste preoferte reprezinta 
+fondul initial de date pentru lansarea ordinelor de vinzare/cumparare, care 
+sunt tranzactionate in ring in regim automatizat. Pregatirea licitatiilor si 
+prelucrarile aferente inchiderii ringului sunt computerizate.  
+        Sunt, de asemenea, in exploatare aplicatii pentru uz intern al B.M.M.C.
+pe probleme economico-financiare si de personal-salarizare.
+        Prin intermediul statiei Macintosh se asigura editarea unei reviste 
+proprii a B.M.M.C. - Info BMMC -, a tuturor documentelor de uz intern si pentru 
+terti.
+        Sistemul complex de documentare, permite preluarea si transmiterea "on-
+line" a informatiilor bursiere. Sursele de date sunt multiple : membrii bursei, 
+alti agenti economici, baze de date internationale (REUTERS, DOW-JONES, BIMCO,  
+etc.). Acestia sunt totodata si beneficiarii informatiilor. Uzura morala a 
+informatiilor - de tipul cotatii bursiere si bancare, rapoarte financiare, 
+bonitati despre firme interne si externe, informatii de tip shipping - fiind 
+foarte rapida, este esentiala furnizarea lor catre toti factorii interesati in 
+timp real, lucru care se realizeaza cu ajutorul sistemului informatic al 
+B.M.M.C.
+        Arhitectura in sistem deschis a sistemului informatic al bursei va
+permite in scurt timp realizarea trecerii de la tranzactionarea automatizata 
+in ring , existenta in acest moment, la tranzactionarea computerizata.
+
+        CONDUCERE
+
+        Presedinte - Viorel Marian Pana
+        Director Dep. Tranzactii - Gica Morariu
+        Director Dep. Maritim - Cornel Vieru
+        Director PR&Marketing - Cezar Armeanu
+        Director Sistem informatic - Nicolae Fildan
+
+
+Bursa Maritima si de Marfuri Constanta
+8700 Constanta - Romania
+Bd. 1 Decembrie 1918 nr.2
+
+Tel.: +40 (0)41 639609, 639910
+Fax.: +40 (0)41 639710, 638048
+Tlx.: 16430
+
+E-mail: office@@bmmc.eunet.ro
+
+@

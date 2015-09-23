@@ -1,0 +1,83 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.14.48.44;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.29.51;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.01.21.42.45;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.45.28;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<TITLE>telnet</TITLE>
+<H1>telnet</H1>
+
+Este un protocol folosit pentru conectarea la alte computere din Internet,
+oferind asa numitul <b>Remote Login</b>. Terminalul de pe care se lucreaza
+este conectat virtual la computerul gazda, in acest fel toate programele
+lansate se executa pe calculatorul gazda si nu pe cel local. Programul
+<b>telnet</b> care implemteaza acest protocol ofera o interfata compatibila
+cu terminalele <i>vt100-vt320</i>, iar programul <b>tn3270</b> ofera o
+interfata compatibila cu terminalele <i>IBM3270</i> folosite de
+calculatoarele mainframe.   Programul <b>rlogin</b> ofera servicii
+asemanatoare cu <b>telnet</b> chiar daca se bazeaza pe standarde diferite.
+Telnet-ul este folosit in mod curent pentru a accesa diferite baze de date
+in mod interactiv.
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 2
+<TITLE>telnet</TITLE>
+<H1>telnet</H1>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 13
+@

@@ -1,0 +1,61 @@
+-- $Id: CONTENTS,v 2.1 1994/11/01 14:42:03 joke Rel $
+
+Alice's Adventures In Wonderland / Through the Looking-Glass
+
+	Copyright (c) 1865, 1872 by Lewis Carroll
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+File:		Contents:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+alice.texi	Main file
+foreword.texi	Preface to the Texinfo Edition
+
+
+ALICE'S ADVENTURES IN WONDERLAND
+
+gold.texi	All in the golden afternoon\ Full leisurely we glide;
+xmas.texi	Christmas-Greetings
+chap1.texi      Down The Rabbit-hole.\ ALICE was beginning to get very
+chap2.texi      The Pool of Tears\ "CURIOUSER and curiouser!" cried Al
+chap3.texi      A Caucus-race and a Long Tale \ ``CURIOUSER and curiou
+chap4.texi      The Rabbit Sends in a Little Bill\ IT was the White
+chap5.texi      Advice from a Caterpillar \ THE Caterpillar and Alice
+chap6.texi      Pig and Pepper\ FOR a minute or two she stood looking 
+chap7.texi      A Mad Tea-Party\ HERE was a table set out under a tree
+chap8.texi      A LARGE rose-tree stood near the entrance of\ the
+chap9.texi	The Mock Turtle's Story\ ``YOU can't think how glad I
+chap10.texi	The Lobster-Quadrille\ THE Mock Turtle sighed deeply,
+chap11.texi     Who Stole the Tarts?\ THE King and Queen of Hearts
+chap12.texi     Alice's Evidence\ "Here!" cried Alice, quite forget
+
+
+THROUGH THE LOOKING-GLASS AND WHAT ALICE FOUND THERE
+
+child.texi	CHILD of the pure unclouded brow\ And dreaming eyes of
+drama.texi	Dramatis Personae
+chess.texi	The Chess Puzzle
+preface.texi	Preface to the 1896 Edition
+chap13.texi     Looking-glass house\ ONE thing was certain, that the w
+chap14.texi     The Garden of Live Flowers\``I SHOULD see the garden f
+chap15.texi     Looking-glass Insects\OF course the first thing to do
+chap16.texi     Tweedledum and Tweedledee\THEY were standing under a t
+chap17.texi     Wool and Water\SHE caught the shawl as she spoke, and 
+chap18.texi     Humpty Dumpty\ HOWEVER, the egg only got larger and la
+chap19.texi     The Lion and The Unicorn\THE next moment soldiers came
+chap20.texi     ``It's My Own Invention''\AFTER a while the noise seem
+chao21.texi     Queen Alice\ "WELL, this is grand!" said Alice. "I
+chap22.texi     Shaking\SHE took her off the table as she spoke, and
+chap23.texi     Waking\ --and it really was  a kitten, after all.
+chap24.texi	Which Dreamed It?\``YOUR Red Majesty shouldn't purr so
+
+life.texi	A BOAT, beneath a sunny sky\ Lingering onward dreamly
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Texinfo edition, Copyright (c) 1994 by
+
+    Joerg Heitkoetter <joke@Germany.EU.net>
+c/o EUnet Deutschland GmbH, Techno Park, Emil-Figge-Str. 80
+    D-44227 Dortmund, Germany
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

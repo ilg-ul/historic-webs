@@ -1,0 +1,88 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.11.08.14.48.33;  author vsv;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.11.05.14.29.43;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.01.21.42.35;  author vsv;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.10.22.13.45.17;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@ok
+@
+text
+@<TITLE>E-mail</TITLE>
+<H1>E-mail</H1>
+E-mail sau "Posta electronica" este cel mai vechi, flexibil si raspindit
+mod de transmitere a mesajelor de-a lungul retelelor de calculatoare. 
+Mesajul de transmis este impachetat de un program numit in mod obisnuit
+"mailer" si apoi transmis destinatarului de-a lungul retelei. Practic se
+pot transmite mesaje in orice retea, indiferent de protocolul folosit, fie
+acesta <a href=tcpip.htm>TCP/IP</a>, X.25, DECNet etc.
+Conexiunea intre aceste retele este realizata de asa numitele "gateways" care se 
+ocupa atit de translatarea mesajelor de la o retea la alta cit si de stabilirea adreselor in
+interiorul noii retele. In Internet protocolul de E-mail este in conformitate cu 
+<i>RFC 821</i> si <i>RFC 822</i>.@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 3
+<TITLE>E-mail</TITLE>
+<H1>E-mail</H1>
+
+d8 4
+a11 6
+acesta <a href=/info/internet/tcpip.htm>TCP/IP</a>, X.25, DECNet etc.
+Conexiunea intre aceste retele este
+realizata de asa numitele "gateways" care se ocupa atit de translatarea
+mesajelor de la o retea la alta cit si de stabilirea adreselor in
+interiorul noii retele. In Internet protocolul
+de E-mail este in conformitate cu <i>RFC 821</i> si <i>RFC 822</i>.
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 12
+@

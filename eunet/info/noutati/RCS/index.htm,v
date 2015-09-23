@@ -1,0 +1,207 @@
+head     1.4;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.4
+date     94.12.01.21.28.22;  author ilg;  state Exp;
+branches ;
+next     1.3;
+
+1.3
+date     94.12.01.20.09.04;  author ilg;  state Exp;
+branches ;
+next     1.2;
+
+1.2
+date     94.11.16.16.20.07;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.11.05.14.31.26;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@staearsa partea care era in luna curenta.
+oferta speciala mentionata ca link nu ca text.
+@
+text
+@<TITLE>Noutati de ieri si de azi la EUnet Romania</TITLE>
+
+<H2>Nou! Premiera nationala!</H2>
+
+Dupa ce in 1993 firma EUnet Romania a fost prima firma autorizata sa 
+ofere servicii comerciale de acces Internet la nivel de 
+<A HREF="../internet/email.htm">E-mail</A>, 
+acum, din august 1994, iata ca va putem anunta o noua premiera
+nationala:
+access "<A HREF="../internet/access.htm">full Internet</A>", 
+pentru toata gama de servicii 
+<A HREF="../internet/tcpip.htm">TCP/IP</A> 
+(<A HREF="../internet/telnet.htm">telnet</A>, 
+<A HREF="../internet/ftp.htm">ftp</A>, 
+<A HREF="../internet/gopher.htm">gopher</A>, 
+<A HREF="../internet/www.htm">www</A>, etc).
+
+<HR><BR>
+<H2>Avem placerea sa va informam:</H2> 
+
+<H3><A HREF="../eunetro/oferta.htm">Oferta speciala!</A></H3>
+
+<H3>Buletinul de stiri "Telegrama"</H3>
+
+Prin intermediul serviciilor noastre puteti avea access si la buletinele
+de stiri oferite de <A HREF="../abonati/fsc.htm">Fundatia pentru Strategii de Comunicare</A>, dintre care
+primul este <B>Telegrama</B>, primul cotidian electronic editat in Romania,
+ce cuprinde stiri din cele mai variate domenii.
+
+<HR><BR>
+<H2>Noutati de ieri... si de azi...</H2> 
+
+Cum acest serviciu de informatii despre Internet si
+despre EUnet Romania se dezvolta pe zi ce trece, 
+aici este
+locul unde puteti afla ce a mai aparut nou de 
+cind ne-ati contactat ultima oara. <P>
+
+<UL>
+<LI><A HREF="curent.htm">Luna curenta</A>
+<LI><A HREF="nov94.htm">Noiembrie 94</A>
+<LI><A HREF="oct94.htm">Octombrie 94</A>
+<LI><A HREF="demult.htm">... mai demult</A>
+</UL>
+
+<HR>
+<ADDRESS>actualizat: 1 Decembrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+
+@
+
+
+1.3
+log
+@month by month
+@
+text
+@d21 1
+a21 1
+<H3>Oferta speciala!</H3>
+a22 3
+Conectati-va astazi si veti beneficia de o reducere de pina la 25% din valoarea abonamentului lunar! Atentie insa: oferta este limitata, expirind
+la finele anului!<P>
+
+d41 1
+a45 30
+<HR><BR>
+
+<H2>20 Nov 1994</H2>
+!!! Ca o surpriza, si pentru a demonstra facilitatile oferite de serverul 
+de WWW, va puteti delecta citind in original textul cartii 
+<A HREF="../../alice/alice.html">Alice in Tara Minunilor</A>, de Lewis Caroll.
+
+<H2>16 Nov 1994</H2>
+Nou client in Cluj: firma <A HREF="../abonati/vestco.htm">Vest Conex SA</A>.<p>
+
+<H2>15 Nov 1994</H2>
+Simplificarea procedurii de acces la serverul de info (dupa
+Username: info nu mai este nevoie de introducerea numelui la login)<P>
+
+<H2>11 Nov 1994</H2>
+Nou client in Cluj: <A HREF="../abonati/btrans.htm">Bursa Transilvana</A>.<p>
+
+<H2>3-5 Nov 1994</H2>
+Participare la ROSE'94.
+Organizarea remarcabila a celor de la GURU, impreuna cu prezenta unor nume
+mari in lumea UNIX-ului, cum ar fi Richard Stallman, au facut din ROSE'94
+cel mai important eveniment computeristic al anului. <P>
+Firma EUnet, in calitate de 
+sponsor, a fost prezenta impreuna cu firma KT Technology
+cu un stand de comunicatii E-mail, demonstrind legatura la Internet 
+la nivel de E-mail si SLIP pe toata durata manifestarii.  <P>
+
+<H2>1 Nov 1994</H2>
+Nou client in Baia-Mare: firma <A HREF="../abonati/multinet.htm">Multinet SRL</A>.<p>
+
+d47 1
+a47 1
+<ADDRESS>actualizat: 20 Noiembrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+@
+
+
+1.2
+log
+@october clients added
+@
+text
+@d18 1
+a18 1
+<HR>
+d31 1
+a31 1
+ce cuprinde stiri din cele mai variate domenii.<P>
+d33 2
+a34 1
+<H3>Noutati de ieri... si de azi...</H3> 
+d40 15
+a54 2
+cind ne-ati contactat ultima oara. 
+<HR>
+d66 8
+a73 1
+Participare la ROSE'94<P>
+a77 22
+<H2>29 Oct 1994</H2>
+Instalat server WWW pentru serviciul de 'info'.<P>
+
+<H2>26 Oct 1994</H2>
+Nou client: firma <A HREF="../abonati/icom.htm">Intracom S.A. Reprezentanta Romania</A>.<P>
+
+<H2>10 Oct 1994</H2>
+Nou client: firma <A HREF="../abonati/ingr.htm">INTERGRAF, Reprezentanta Romania</A>.<P>
+
+<H2>6 Oct 1994</H2>
+Nou client: firma <A HREF="../abonati/datasyst.htm">DATASYST Computer SA</A>.<P>
+
+<H2>Aug 1994</H2>
+Cea mai mare noutate, chiar daca va vine sa credeti sau nu,
+este ca "inamicul public nr.1", RomTelecom-ul,
+a instalat in cele din urma linia inchiriata necesara pentru 
+legatura pe X.25 cu EUnet France.
+Ca a durat trei luni, asta e alta poveste...
+Mii de multumiri colegilor de la RTNS (Rompac) pentru aceasta 
+(mult asteptata) realizare,
+care ne-a dat posibilitatea de a deschide public serviciile de 
+TCP/IP (telnet, ftp, gopher, www, wais, etc). 
+d79 1
+a79 2
+<ADDRESS>actualizat: 16 Noiembrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d24 1
+a24 1
+pina la finele anului!<P>
+d39 4
+a42 1
+cind ne-ati contactat ultima oara. <P>
+d44 25
+d80 1
+a80 1
+<ADDRESS>actualizat: 31 Octombrie 1994 de ilg@@Romania.EU.net</ADDRESS>
+@

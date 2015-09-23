@@ -1,0 +1,48 @@
+head     1.2;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.2
+date     94.11.16.14.47.03;  author ilg;  state Exp;
+branches ;
+next     1.1;
+
+1.1
+date     94.11.15.21.50.46;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.2
+log
+@no binary reference
+@
+text
+@<title>Bursa Transilvana (Cluj-Napoca)</title>
+<plaintext>
+Bursa Transilvana S.A.
+B-dul N. Titulescu nr. 4
+Cluj-Napoca
+
+office@@btrans.eunet.ro
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a1 2
+<A HREF=BTRANS.EXE>Pentru a copia programul de comunicatii tastati <B>d</B> pe aceasta legatura si selectati protocolul dorit</A>
+
+@

@@ -1,0 +1,87 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.08.29.17.02.13;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@Default page for info server
+@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<TITLE>Serviciul de informatii al EUnet Romania</TITLE>
+<H1>Bun venit la serviciul de informatii al EUnet Romania </H1>
+<BODY>Pentru a afla cum se foloseste acest program tastati <A HREF="newuser.htm">Enter</A>.
+Pentru a face download pe un fisier apasati "d" pe legatura catre acel fisier.
+<HR>
+<H2>Ultimele noutati</H2>
+Cea mai mare noutate, chiar daca va vine sa credeti sau nu,
+este ca "inamicul public nr.1", RomTelecom-ul,
+a instalat in cele din urma linia inchiriata necesara pentru accesul pe X.25.
+Ca a durat trei luni, asta e alta poveste...
+Mii de multumiri colegilor de la Rompac (RTNS) pentru aceasta (mult asteptata)
+realizare,
+care ne-a dat posibilitatea de a deschide public serviciile de TCP/IP (telnet,
+ftp, gopher, www, wais, etc). <A HREF="diverse/noutati.htm">
+Alte noutati</A>. 
+<HR>
+<H2>Servicii oferite de EUnet Romania </H2>
+EUnet Romania este alternativa cea mai convenabila si rapida in comunicatii de tip posta electronica si este singurul furnizor de servicii de tip "<A HREF="internet/access.htm">full Internet access</A>" in Romania.
+Serviciile puse la dispozitie de firma noastra sunt: 
+<UL>
+<LI><A HREF="eunet/mail.htm">EUnet Mail</A>. 
+<LI><A HREF="eunet/mailps.htm">EUnet Mail (personal server)</A>.
+<LI><A HREF="eunet/it.htm">InterEUnet IP</A>.
+<LI><A HREF="eunet/itdial.htm">InterEUnet Dialup-lP</A>.
+<LI><A HREF="eunet/itpers.htm">InterEUnet Personal Dialup-IP</A>.
+</UL>
+<HR>
+<H2>Tarife:</H2>
+Tarifele practicate de EUnet Romania va dau posibilitatea sa transmiteti
+informatii, in deplina securitate, la preturi de citeva ori mai mici decit mijloacele traditionale ca fax-ul si telefonul. Tarifele corespunzatoare serviciilor noastre sunt: 
+<UL>
+<LI><A HREF="eunet/tmail.htm">EUnet Mail</A>.
+<LI><A HREF="eunet/tmailps.htm">EUnet Mail (personal server)</A>.
+<LI><A HREF="eunet/tit.htm">InterEUnet IP</A>.
+<LI><A HREF="eunet/titdial.htm">InterEUnet Dialup-IP</A>.
+<LI><A HREF="eunet/titpdial.htm">InterEUnet Personal Dialup-IP</A>.
+</UL>
+<HR>
+<H2>Reteaua EUnet</H2>
+EUnet este o organizatie pan-europeana care ofera servicii de posta
+electronica si acces Internet in peste 34 de tari ale lumii.
+<UL>
+<LI><A HREF="eunet/eunetint.htm">Ce este EUnet?</A>
+<LI>EUnet in Romania.
+<LI><A HREF="eunet/altetari.htm">EUnet in alte tari</A>.
+</UL>
+<HR>
+<H2>Diverse</H2>
+<UL>
+<LI>Daca vreti sa va conectati "<A HREF="diverse/gratis.htm">pe gratis</A>".
+<LI>Cine are nevoie de Internet?
+<LI>Ce solutii de conectare va putem oferi.
+<LI>Diferente Internet / X.25.
+<LI>Diferente EUnetMail/SprintMail.
+<LI>Diferite <A HREF="diverse/internet.htm">statistici despre Internet</A>.
+<LI> Cum puteti accesa <A HREF="diverse/compuser.htm">Compuserve din Internet</A>.
+<LI><A HREF="diverse/clienti.htm">Abonatii EUnet.</A>
+<LI><A HREF="http://caesar/info/diverse/rfc">Request for Comments</A>
+<LI>Pentru probleme sau informatii ne puteti <A HREF="diverse/contact.htm">contacta prin</A>:
+</UL>
+<HR>
+<ADDRESS>actualizat: 24 August 1994 de vsv@@Romania.EU.net </ADDRESS>@

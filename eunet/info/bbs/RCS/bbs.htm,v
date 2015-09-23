@@ -1,0 +1,39 @@
+head     1.1;
+branch   ;
+access   ;
+symbols  ;
+locks    ;
+comment  @@;
+
+
+1.1
+date     94.12.01.21.21.42;  author ilg;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<title>Ce este un BBS?</title>
+<H1>Ce este un BBS?</H1>
+Un BBS este un Bulletin Board System, adica un fel de avizier electronic, 
+in care utilizatorii pot posta mesaje catre alti utilizatori sau catre 
+grupuri de interes.<P>
+Din punct de vedere tehnic, este un computer dotat cu un modem conectat
+la reteaua telefonica. Utilizatorii se conecteaza cu un emulator de
+terminal sau cu un program special. Accesul se face pe bazu unui nume
+si a unei parole. De cele mai multe ori exista posibilitatea de a se
+face inregistrarea dinamic, chiar prin telefon, alteori este necesara
+interventia administratorului.<P>
+BBS-ul poate fi izolat sau poate fi conectat cu alte BBS-uri, comunicatia
+facindu-se la nivel de schimb de mesaje.
+
+@
